@@ -1,4 +1,4 @@
-update=12/6/2017 3:22:32 PM
+update=5/4/2018 3:40:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,6 +63,7 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=freetronics/freetronics_schematic
+LibName35=CD4013B/symbol/cd4013b
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

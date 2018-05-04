@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:freetronics_schematic
+LIBS:cd4013b
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 1 47
+Sheet 1 45
 Title "Hitchco MK4"
 Date "2017-10-11"
 Rev "0.1"
@@ -193,7 +194,7 @@ L Conn_02x03_Counter_Clockwise J10
 U 1 1 5A29D64F
 P 4100 5100
 F 0 "J10" H 4150 5350 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 4150 4900 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 3100 5100 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 4100 5100 50  0001 C CNN
 F 3 "" H 4100 5100 50  0001 C CNN
 	1    4100 5100
@@ -644,6 +645,10 @@ F106 "LED2+" I L 5350 13100 60
 F107 "HALL" I R 6650 2500 60 
 F108 "HALR" I R 6650 2400 60 
 F109 "PB11_LED-" O L 5350 7750 60 
+F110 "TACK" I R 6650 4600 60 
+F111 "FLSHEN" O R 6650 4850 60 
+F112 "FLSHIN" I R 6650 4950 60 
+F113 "PB3_NC" I L 5350 5300 60 
 $EndSheet
 NoConn ~ 3900 3450
 NoConn ~ 3900 3550

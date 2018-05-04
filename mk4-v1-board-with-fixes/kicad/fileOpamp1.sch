@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:freetronics_schematic
+LIBS:cd4013b
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 7 47
+Sheet 7 45
 Title "sensor-mcu"
 Date "2017-10-11"
 Rev "0.1"
@@ -134,7 +135,7 @@ F 3 "http://www.vishay.com/docs/28515/sseries.pdf" H 4100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3850 5250 4250
+	5250 3850 5250 5050
 Wire Wire Line
 	4550 4250 4900 4250
 Wire Wire Line
@@ -206,4 +207,10 @@ F 3 "http://www.vishay.com/docs/28515/sseries.pdf" H 6450 4450 50  0001 C CNN
 	1    6450 4450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5250 5050 7150 5050
+Wire Wire Line
+	7150 5050 7150 4250
+Connection ~ 7150 4250
+Connection ~ 5250 4250
 $EndSCHEMATC

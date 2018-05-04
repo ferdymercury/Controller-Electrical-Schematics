@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:freetronics_schematic
+LIBS:cd4013b
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 45 47
+Sheet 45 45
 Title ""
 Date ""
 Rev ""

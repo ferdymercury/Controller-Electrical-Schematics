@@ -33,12 +33,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:freetronics_schematic
+LIBS:cd4013b
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 47
+Sheet 3 45
 Title "sensor-mcu"
 Date "2017-10-11"
 Rev "0.1"

@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLedger 11000 17000 portrait
 encoding utf-8
-Sheet 1 47
+Sheet 1 46
 Title "Hitchco MK4"
 Date "2017-10-11"
 Rev "0.1"
@@ -644,6 +644,7 @@ F106 "LED2+" I L 5350 13100 60
 F107 "HALL" I R 6650 2500 60 
 F108 "HALR" I R 6650 2400 60 
 F109 "PB11_LED-" O L 5350 7750 60 
+F110 "TACK" I R 6650 4600 60 
 $EndSheet
 NoConn ~ 3900 3450
 NoConn ~ 3900 3550
