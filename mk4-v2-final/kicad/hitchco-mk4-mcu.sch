@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr C 17000 22000 portrait
 encoding utf-8
-Sheet 2 51
+Sheet 2 54
 Title ""
 Date "2017-10-11"
 Rev "0.1"
@@ -143,7 +143,7 @@ Text HLabel 13700 10350 2    60   Input ~ 0
 RVRS
 Text HLabel 13700 11050 2    60   Input ~ 0
 SPED
-Text HLabel 10100 5700 2    60   Input ~ 0
+Text HLabel 10700 5700 2    60   Input ~ 0
 GND
 Text HLabel 13700 6150 2    60   Input ~ 0
 OILP
@@ -171,32 +171,10 @@ Text HLabel 1500 4700 0    60   Output ~ 0
 ECF
 Text HLabel 2850 4800 2    60   Input ~ 0
 GND
-$Sheet
-S 13350 17950 1200 400 
-U 5A0A2090
-F0 "NMOS1_C" 60
-F1 "fileNMOS1.sch" 60
-F2 "GND" I R 14550 18250 60 
-F3 "DRAIN" O L 13350 18150 60 
-F4 "ENABLE" I R 14550 18150 60 
-$EndSheet
-Text HLabel 11500 17100 0    60   Output ~ 0
+Text HLabel 11150 17100 0    60   Output ~ 0
 DIRL
-Text HLabel 14600 18250 2    60   Input ~ 0
-GND
-$Sheet
-S 13350 16600 1200 400 
-U 5A0A20A2
-F0 "NMOS1_B" 60
-F1 "fileNMOS1.sch" 60
-F2 "GND" I R 14550 16900 60 
-F3 "DRAIN" O L 13350 16800 60 
-F4 "ENABLE" I R 14550 16800 60 
-$EndSheet
-Text HLabel 11500 18450 0    60   Output ~ 0
+Text HLabel 11200 18450 0    60   Output ~ 0
 DIRR
-Text HLabel 14600 16900 2    60   Input ~ 0
-GND
 $Sheet
 S 12300 4550 1200 400 
 U 5A0A7345
@@ -252,8 +230,6 @@ Text HLabel 12250 7650 0    60   Input ~ 0
 GND
 Text HLabel 12250 4850 0    60   Input ~ 0
 GND
-Text HLabel 13700 4050 2    60   Input ~ 0
-VIN(12V)
 Text HLabel 3800 17000 0    60   Input ~ 0
 WIPEO
 Text HLabel 6350 16800 2    60   Output ~ 0
@@ -281,8 +257,6 @@ F5 "SOURCE" I L 4900 17050 60
 $EndSheet
 Text HLabel 4850 17250 0    60   Input ~ 0
 GND
-Text HLabel 4850 17050 0    60   Input ~ 0
-VIN(12V)
 $Sheet
 S 4900 17600 1200 400 
 U 5A0E0621
@@ -295,53 +269,51 @@ F5 "SOURCE" I L 4900 17700 60
 $EndSheet
 Text HLabel 4850 17900 0    60   Input ~ 0
 GND
-Text HLabel 4850 17700 0    60   Input ~ 0
-VIN(12V)
-Text GLabel 10100 6100 2    39   Input ~ 0
+Text GLabel 10700 6100 2    39   Input ~ 0
 VBAT_SIG_PIN
 Text GLabel 12250 4050 0    39   Input ~ 0
 VBAT_SIG_PIN
-Text GLabel 10100 6200 2    39   Input ~ 0
+Text GLabel 10700 6200 2    39   Input ~ 0
 ECT_SIG_PIN
 Text GLabel 12250 4750 0    39   Input ~ 0
 ECT_SIG_PIN
-Text GLabel 10100 6300 2    39   Input ~ 0
+Text GLabel 10700 6300 2    39   Input ~ 0
 ACT_SIG_PIN
 Text GLabel 12250 5450 0    39   Input ~ 0
 ACT_SIG_PIN
-Text GLabel 10100 6400 2    39   Input ~ 0
+Text GLabel 10700 6400 2    39   Input ~ 0
 OILP_SIG_PIN
 Text GLabel 12250 6150 0    39   Input ~ 0
 OILP_SIG_PIN
-Text GLabel 10100 6500 2    39   Input ~ 0
+Text GLabel 10700 6500 2    39   Input ~ 0
 FUEL_SIG_PIN
 Text GLabel 12250 6850 0    39   Input ~ 0
 FUEL_SIG_PIN
-Text GLabel 10100 6600 2    39   Input ~ 0
+Text GLabel 10700 6600 2    39   Input ~ 0
 OILL_SIG_PIN
 Text GLabel 12250 7550 0    39   Input ~ 0
 OILL_SIG_PIN
-Text GLabel 10100 6700 2    39   Input ~ 0
+Text GLabel 10700 6700 2    39   Input ~ 0
 BATC_SIG_PIN
 Text GLabel 12250 8250 0    39   Input ~ 0
 BATC_SIG_PIN
-Text GLabel 10100 6800 2    39   Input ~ 0
+Text GLabel 10700 6800 2    39   Input ~ 0
 EGOL_SIG_PIN
 Text GLabel 12250 8950 0    39   Input ~ 0
 EGOL_SIG_PIN
-Text GLabel 10100 7000 2    39   Input ~ 0
+Text GLabel 10700 7000 2    39   Input ~ 0
 EGOR_SIG_PIN
 Text GLabel 12250 9050 0    39   Input ~ 0
 EGOR_SIG_PIN
-Text GLabel 10100 7100 2    39   Input ~ 0
+Text GLabel 10700 7100 2    39   Input ~ 0
 EBRK_SIG_PIN
 Text GLabel 12250 9650 0    39   Input ~ 0
 EBRK_SIG_PIN
-Text GLabel 10100 7200 2    39   Input ~ 0
+Text GLabel 10700 7200 2    39   Input ~ 0
 RVRS_SIG_PIN
 Text GLabel 12250 10350 0    39   Input ~ 0
 RVRS_SIG_PIN
-Text GLabel 8100 6300 0    39   Input ~ 0
+Text GLabel 8700 6300 0    39   Input ~ 0
 SPED_SIG_PIN
 Text GLabel 12250 11250 0    39   Input ~ 0
 SPED_SIG_PIN
@@ -349,42 +321,32 @@ Text GLabel 2850 4700 2    39   Input ~ 0
 ECF_EN_PIN
 Text GLabel 5850 4200 2    39   Input ~ 0
 STEN_EN_PIN
-Text GLabel 8100 6100 0    39   Input ~ 0
+Text GLabel 8700 6100 0    39   Input ~ 0
 STEN_EN_PIN
 Text GLabel 6400 5300 2    39   Input ~ 0
 RUEN_EN_PIN
-Text GLabel 8100 6000 0    39   Input ~ 0
+Text GLabel 8700 6000 0    39   Input ~ 0
 RUEN_EN_PIN
-Text GLabel 14600 16800 2    39   Input ~ 0
+Text GLabel 13750 17100 2    39   Input ~ 0
 DIRL_EN_PIN
-Text GLabel 8100 5900 0    39   Input ~ 0
+Text GLabel 8700 5900 0    39   Input ~ 0
 DIRL_EN_PIN
-Text GLabel 8100 5700 0    39   Input ~ 0
+Text GLabel 8700 5700 0    39   Input ~ 0
 DIRR_EN_PIN
-Text GLabel 14600 18150 2    39   Input ~ 0
+Text GLabel 13750 18450 2    39   Input ~ 0
 DIRR_EN_PIN
 Text GLabel 1500 16850 0    39   Input ~ 0
 WIPEO_EN_PIN
-Text GLabel 8100 5600 0    39   Input ~ 0
+Text GLabel 8700 5600 0    39   Input ~ 0
 WIPEO_EN_PIN
 Text GLabel 4850 17150 0    39   Input ~ 0
 WIPEL_EN_PIN
-Text GLabel 8100 5500 0    39   Input ~ 0
+Text GLabel 8700 5500 0    39   Input ~ 0
 WIPEL_EN_PIN
 Text GLabel 4850 17800 0    39   Input ~ 0
 WIPEH_EN_PIN
-Text GLabel 8100 5400 0    39   Input ~ 0
+Text GLabel 8700 5400 0    39   Input ~ 0
 WIPEH_EN_PIN
-Text HLabel 12250 6050 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 12250 6750 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 12250 7450 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 12250 8850 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 12250 10950 0    60   Input ~ 0
-VIN(5V)
 Text HLabel 9450 1050 0    60   Input ~ 0
 VBAT-
 Text HLabel 9450 1350 0    60   Input ~ 0
@@ -395,30 +357,24 @@ Text HLabel 9450 1550 0    60   Input ~ 0
 RS1_L3
 Text HLabel 9450 1150 0    60   Input ~ 0
 5V
-Text GLabel 10100 7300 2    39   Input ~ 0
+Text GLabel 10700 7300 2    39   Input ~ 0
 PSU1_SIG_PIN
-Text HLabel 7950 2750 2    60   Output ~ 0
-PSU2_GND
-Text HLabel 4500 6750 0    60   Output ~ 0
+Text HLabel 4300 7550 0    60   Output ~ 0
+PSU3_GND
+Text HLabel 4300 6750 0    60   Output ~ 0
 PSU2_12V
 Text GLabel 5900 6750 2    39   Input ~ 0
 PSU2_EN_PIN
-Text GLabel 8100 8100 0    39   Input ~ 0
+Text GLabel 8700 8100 0    39   Input ~ 0
 PSU2_EN_PIN
-Text GLabel 8100 8200 0    39   Input ~ 0
+Text GLabel 8700 8200 0    39   Input ~ 0
 PSU3_EN_PIN
-Text GLabel 8100 8000 0    39   Input ~ 0
+Text GLabel 8700 8000 0    39   Input ~ 0
 PSU1_EN_PIN
-Text HLabel 8100 7750 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 8100 7850 0    60   Input ~ 0
-VIN(5V)
-Text HLabel 10100 5800 2    60   Input ~ 0
+Text HLabel 10700 5800 2    60   Input ~ 0
 GND
-Text HLabel 6800 3400 0    60   Input ~ 0
-GND
-Text HLabel 6900 3400 2    60   Input ~ 0
-PSU1_GND_IN
+Text HLabel 4300 6900 0    60   Output ~ 0
+PSU2_GND
 $Sheet
 S 1400 14000 950  500 
 U 5A1C69FD
@@ -433,8 +389,6 @@ F7 "GND" I R 2350 14200 60
 F8 "EN_LED" I R 2350 14400 60 
 F9 "LED-" O L 1400 14200 60 
 $EndSheet
-Text HLabel 2400 14100 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 2400 14200 2    60   Input ~ 0
 GND
 Text HLabel 1350 14100 0    60   Output ~ 0
@@ -459,8 +413,6 @@ F7 "GND" I R 4500 14200 60
 F8 "EN_LED" I R 4500 14400 60 
 F9 "LED-" O L 3550 14200 60 
 $EndSheet
-Text HLabel 4550 14100 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 4550 14200 2    60   Input ~ 0
 GND
 Text HLabel 3500 14100 0    60   Output ~ 0
@@ -473,10 +425,8 @@ Text HLabel 3500 14400 0    60   Input ~ 0
 PB2_C
 Text HLabel 11450 18050 0    60   Output ~ 0
 PB3_LED+
-Text HLabel 10700 18600 2    60   Output ~ 0
+Text HLabel 11450 18150 0    60   Output ~ 0
 PB3_LED-
-Text HLabel 9000 11850 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 9000 11950 2    60   Input ~ 0
 GND
 Text HLabel 7950 11850 0    60   Output ~ 0
@@ -499,8 +449,6 @@ F7 "GND" I R 2350 11950 60
 F8 "EN_LED" I R 2350 12150 60 
 F9 "LED-" O L 1400 11950 60 
 $EndSheet
-Text HLabel 2400 11850 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 2400 11950 2    60   Input ~ 0
 GND
 Text HLabel 1350 11850 0    60   Output ~ 0
@@ -525,8 +473,6 @@ F7 "GND" I R 2350 12700 60
 F8 "EN_LED" I R 2350 12900 60 
 F9 "LED-" O L 1400 12700 60 
 $EndSheet
-Text HLabel 2400 12600 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 2400 12700 2    60   Input ~ 0
 GND
 Text HLabel 1350 12600 0    60   Output ~ 0
@@ -551,8 +497,6 @@ F7 "GND" I R 4500 13450 60
 F8 "EN_LED" I R 4500 13650 60 
 F9 "LED-" O L 3550 13450 60 
 $EndSheet
-Text HLabel 4550 13350 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 4550 13450 2    60   Input ~ 0
 GND
 Text HLabel 3500 13350 0    60   Output ~ 0
@@ -577,8 +521,6 @@ F7 "GND" I R 6650 11950 60
 F8 "EN_LED" I R 6650 12150 60 
 F9 "LED-" O L 5700 11950 60 
 $EndSheet
-Text HLabel 6700 11850 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 6700 11950 2    60   Input ~ 0
 GND
 Text HLabel 5650 11850 0    60   Output ~ 0
@@ -603,8 +545,6 @@ F7 "GND" I R 6650 12700 60
 F8 "EN_LED" I R 6650 12900 60 
 F9 "LED-" O L 5700 12700 60 
 $EndSheet
-Text HLabel 6700 12600 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 6700 12700 2    60   Input ~ 0
 GND
 Text HLabel 5650 12600 0    60   Output ~ 0
@@ -629,8 +569,6 @@ F7 "GND" I R 6650 13500 60
 F8 "EN_LED" I R 6650 13700 60 
 F9 "LED-" O L 5700 13500 60 
 $EndSheet
-Text HLabel 6700 13400 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 6700 13500 2    60   Input ~ 0
 GND
 Text HLabel 5650 13400 0    60   Output ~ 0
@@ -655,8 +593,6 @@ F7 "GND" I R 8800 14200 60
 F8 "EN_LED" I R 8800 14400 60 
 F9 "LED-" O L 7850 14200 60 
 $EndSheet
-Text HLabel 8850 14100 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 8850 14200 2    60   Input ~ 0
 GND
 Text HLabel 7800 14100 0    60   Output ~ 0
@@ -681,8 +617,6 @@ F7 "GND" I R 10950 14200 60
 F8 "EN_LED" I R 10950 14400 60 
 F9 "LED-" O L 10000 14200 60 
 $EndSheet
-Text HLabel 11000 14100 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 11000 14200 2    60   Input ~ 0
 GND
 Text HLabel 9950 14100 0    60   Output ~ 0
@@ -707,8 +641,6 @@ F7 "GND" I R 13100 14200 60
 F8 "EN_LED" I R 13100 14400 60 
 F9 "LED-" O L 12150 14200 60 
 $EndSheet
-Text HLabel 13150 14100 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 13150 14200 2    60   Input ~ 0
 GND
 Text HLabel 12100 14100 0    60   Output ~ 0
@@ -733,8 +665,6 @@ F7 "GND" I R 2350 13450 60
 F8 "EN_LED" I R 2350 13650 60 
 F9 "LED-" O L 1400 13450 60 
 $EndSheet
-Text HLabel 2400 13350 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 2400 13450 2    60   Input ~ 0
 GND
 Text HLabel 1200 13350 0    60   Output ~ 0
@@ -759,8 +689,6 @@ F7 "GND" I R 4500 11950 60
 F8 "EN_LED" I R 4500 12150 60 
 F9 "LED-" O L 3550 11950 60 
 $EndSheet
-Text HLabel 4550 11850 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 4550 11950 2    60   Input ~ 0
 GND
 Text HLabel 3500 11850 0    60   Output ~ 0
@@ -785,8 +713,6 @@ F7 "GND" I R 4500 12700 60
 F8 "EN_LED" I R 4500 12900 60 
 F9 "LED-" O L 3550 12700 60 
 $EndSheet
-Text HLabel 4550 12600 2    60   Input ~ 0
-VIN(5V)
 Text HLabel 4550 12700 2    60   Input ~ 0
 GND
 Text HLabel 3500 12600 0    60   Output ~ 0
@@ -973,11 +899,11 @@ Text HLabel 5850 10350 2    60   Input ~ 0
 GND
 Text GLabel 5850 10250 2    39   Input ~ 0
 CRZ_RESUME_PIN
-Text GLabel 10100 8950 2    39   Input ~ 0
+Text GLabel 10700 8950 2    39   Input ~ 0
 PB8_RLED_EN
-Text GLabel 10100 9050 2    39   Input ~ 0
+Text GLabel 10700 9050 2    39   Input ~ 0
 PB8_GLED_EN
-Text GLabel 10100 9150 2    39   Input ~ 0
+Text GLabel 10700 9150 2    39   Input ~ 0
 PB8_BLED_EN
 Text GLabel 2500 1250 2    39   Input ~ 0
 PB2_LED_EN
@@ -1048,9 +974,9 @@ Text GLabel 1600 1550 0    39   Input ~ 0
 SREG_OE_PIN
 Text GLabel 2500 2550 2    39   Input ~ 0
 PB17_LED_EN
-Text GLabel 8100 6200 0    39   Input ~ 0
+Text GLabel 8700 6200 0    39   Input ~ 0
 LED2_EN_PIN
-Text GLabel 8100 5300 0    39   Input ~ 0
+Text GLabel 8700 5300 0    39   Input ~ 0
 LED1_EN_PIN
 $Sheet
 S 3800 1050 800  1700
@@ -1112,8 +1038,6 @@ Text GLabel 4650 2450 2    39   Input ~ 0
 PB16_SIG_PIN
 Text GLabel 4650 2550 2    39   Input ~ 0
 PB17_SIG_PIN
-Text HLabel 3750 1750 0    60   Input ~ 0
-VIN(5V)
 Text HLabel 3750 1850 0    60   Input ~ 0
 GND
 Text GLabel 3750 1650 0    39   Input ~ 0
@@ -1128,46 +1052,44 @@ Text GLabel 3750 1250 0    39   Input ~ 0
 MUX_S3_PIN
 Text GLabel 3750 1150 0    39   Input ~ 0
 MUX_SIG_PIN
-Text GLabel 8100 9350 0    39   Input ~ 0
+Text GLabel 8700 9350 0    39   Input ~ 0
 MUX_EN_PIN
-Text GLabel 8100 9250 0    39   Input ~ 0
+Text GLabel 8700 9250 0    39   Input ~ 0
 MUX_S0_PIN
-Text GLabel 8100 9150 0    39   Input ~ 0
+Text GLabel 8700 9150 0    39   Input ~ 0
 MUX_S1_PIN
-Text GLabel 8100 9050 0    39   Input ~ 0
+Text GLabel 8700 9050 0    39   Input ~ 0
 MUX_S2_PIN
-Text GLabel 8100 8950 0    39   Input ~ 0
+Text GLabel 8700 8950 0    39   Input ~ 0
 MUX_S3_PIN
-Text GLabel 10100 7400 2    39   Input ~ 0
+Text GLabel 10700 7400 2    39   Input ~ 0
 MUX_SIG_PIN
-Text GLabel 8100 8400 0    39   Input ~ 0
+Text GLabel 8700 8400 0    39   Input ~ 0
 SREG_SER_PIN
-Text GLabel 8100 8500 0    39   Input ~ 0
+Text GLabel 8700 8500 0    39   Input ~ 0
 SREG_RCLK_PIN
-Text GLabel 8100 8600 0    39   Input ~ 0
+Text GLabel 8700 8600 0    39   Input ~ 0
 SREG_SRCLK_PIN
-Text GLabel 8100 8700 0    39   Input ~ 0
+Text GLabel 8700 8700 0    39   Input ~ 0
 SREG_SRCLR_PIN
-Text GLabel 8100 8850 0    39   Input ~ 0
+Text GLabel 8700 8850 0    39   Input ~ 0
 SREG_OE_PIN
-NoConn ~ 8150 4400
-NoConn ~ 8150 4500
-NoConn ~ 8150 4600
-NoConn ~ 9250 4400
-NoConn ~ 9250 4500
-NoConn ~ 9250 4600
-Text GLabel 10100 9250 2    39   Input ~ 0
+NoConn ~ 8750 4400
+NoConn ~ 8750 4500
+NoConn ~ 8750 4600
+NoConn ~ 9850 4400
+NoConn ~ 9850 4500
+NoConn ~ 9850 4600
+Text GLabel 10700 9250 2    39   Input ~ 0
 PB8_SIG_PIN
-Text GLabel 10100 9350 2    39   Input ~ 0
+Text GLabel 10700 9350 2    39   Input ~ 0
 CRZ_DISABLE_PIN
-Text GLabel 10100 9500 2    39   Input ~ 0
+Text GLabel 10700 9500 2    39   Input ~ 0
 CRZ_MAINTAIN_PIN
-Text GLabel 10100 9600 2    39   Input ~ 0
+Text GLabel 10700 9600 2    39   Input ~ 0
 CRZ_RESUME_PIN
 NoConn ~ 4600 2650
 NoConn ~ 2450 2650
-Text HLabel 1600 1650 0    60   Input ~ 0
-VIN(5V)
 Text HLabel 1600 1750 0    60   Input ~ 0
 GND
 $Sheet
@@ -1185,48 +1107,41 @@ F8 "SL3" I L 9500 1550 60
 F9 "IS_EN" I L 9500 1650 60 
 F10 "EN" I L 9500 1750 60 
 $EndSheet
-Text HLabel 4500 8050 0    60   Output ~ 0
+Text HLabel 4300 8050 0    60   Output ~ 0
 PSU4_12V
-Text HLabel 6800 2800 0    60   Input ~ 0
-VIN(12V)
 Text GLabel 9450 1650 0    39   Input ~ 0
 PSU1_SIG_PIN
 Text GLabel 9450 1750 0    39   Input ~ 0
 PSU1_EN_PIN
 Text HLabel 9450 1250 0    60   Input ~ 0
 VBAT+
-NoConn ~ 8150 5200
-NoConn ~ 8150 5100
-NoConn ~ 8150 5000
-NoConn ~ 8150 4900
-NoConn ~ 8150 4800
-NoConn ~ 8150 6500
-NoConn ~ 8150 6600
-NoConn ~ 8150 6800
-NoConn ~ 8150 6900
-NoConn ~ 8150 7000
-NoConn ~ 8150 7100
-NoConn ~ 8150 7400
-NoConn ~ 8150 7500
-NoConn ~ 10050 8200
-NoConn ~ 10050 8300
-NoConn ~ 10050 8400
-NoConn ~ 10050 8500
-NoConn ~ 10050 7600
-NoConn ~ 10050 7700
-NoConn ~ 10050 5900
-Text HLabel 10100 5600 2    60   Input ~ 0
-VIN(5V)
-Text HLabel 10100 7950 2    60   Input ~ 0
+NoConn ~ 8750 5200
+NoConn ~ 8750 5100
+NoConn ~ 8750 5000
+NoConn ~ 8750 4900
+NoConn ~ 8750 4800
+NoConn ~ 8750 6500
+NoConn ~ 8750 6600
+NoConn ~ 8750 7000
+NoConn ~ 8750 7100
+NoConn ~ 8750 7400
+NoConn ~ 8750 7500
+NoConn ~ 10650 8200
+NoConn ~ 10650 8300
+NoConn ~ 10650 8400
+NoConn ~ 10650 8500
+NoConn ~ 10650 7700
+NoConn ~ 10650 5900
+Text HLabel 10700 7950 2    60   Input ~ 0
 GND
-Text HLabel 10100 8050 2    60   Input ~ 0
+Text HLabel 10700 8050 2    60   Input ~ 0
 GND
-Text HLabel 8100 7200 0    60   Input ~ 0
+Text HLabel 8700 7200 0    60   Input ~ 0
 HALL
-Text HLabel 8100 7300 0    60   Input ~ 0
+Text HLabel 8700 7300 0    60   Input ~ 0
 HALR
-NoConn ~ 10050 5300
-NoConn ~ 10050 5400
+NoConn ~ 10650 5300
+NoConn ~ 10650 5400
 $Sheet
 S 12300 10850 1200 600 
 U 59DEB775
@@ -1240,7 +1155,7 @@ F6 "VREF2" I L 12300 11050 60
 F7 "INPUT2" I R 13500 11150 60 
 F8 "OUTPUT2" O L 12300 11150 60 
 $EndSheet
-Text GLabel 10100 5500 2    39   Input ~ 0
+Text GLabel 10700 5500 2    39   Input ~ 0
 3V3
 Text GLabel 12250 11050 0    39   Input ~ 0
 3V3
@@ -1248,58 +1163,10 @@ Text HLabel 13700 11150 2    60   Input ~ 0
 TACK
 Text HLabel 13700 7550 2    60   Input ~ 0
 OILL
-Text GLabel 8100 6400 0    39   Input ~ 0
+Text GLabel 8700 6400 0    39   Input ~ 0
 TACK_SIG_PIN
 Text GLabel 12250 11150 0    39   Input ~ 0
 TACK_SIG_PIN
-$Comp
-L Q_PMOS_GDS Q?
-U 1 1 5AF3CB7D
-P 12900 16800
-F 0 "Q?" H 13100 16850 50  0000 L CNN
-F 1 "Q_PMOS_GDS" H 13100 16750 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 13100 16900 50  0001 C CNN
-F 3 "" H 12900 16800 50  0001 C CNN
-	1    12900 16800
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R?
-U 1 1 5AF55C11
-P 13050 16500
-F 0 "R?" V 13130 16500 50  0000 C CNN
-F 1 "10KΩ" V 13050 16500 35  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12980 16500 50  0001 C CNN
-F 3 "" H 13050 16500 50  0001 C CNN
-	1    13050 16500
-	0    1    1    0   
-$EndComp
-Text HLabel 12800 16400 1    60   Input ~ 0
-VIN(12V)
-$Comp
-L Q_PMOS_GDS Q?
-U 1 1 5AF6293D
-P 12900 18150
-F 0 "Q?" H 13100 18200 50  0000 L CNN
-F 1 "Q_PMOS_GDS" H 13100 18100 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 13100 18250 50  0001 C CNN
-F 3 "" H 12900 18150 50  0001 C CNN
-	1    12900 18150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R?
-U 1 1 5AF62946
-P 13050 17850
-F 0 "R?" V 13130 17850 50  0000 C CNN
-F 1 "10KΩ" V 13050 17850 35  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 12980 17850 50  0001 C CNN
-F 3 "" H 13050 17850 50  0001 C CNN
-	1    13050 17850
-	0    1    1    0   
-$EndComp
-Text HLabel 12800 17750 1    60   Input ~ 0
-VIN(12V)
 $Comp
 L 2N3904 Q?
 U 1 1 5AED7F9F
@@ -1396,7 +1263,7 @@ F 3 "" H 8700 18450 60  0001 C CNN
 $EndComp
 Text HLabel 10100 17700 2    60   Output ~ 0
 FLSHEN
-Text HLabel 11500 17700 0    60   Input ~ 0
+Text HLabel 11250 17700 0    60   Input ~ 0
 FLSHIN
 $Comp
 L DIODE D?
@@ -1431,8 +1298,6 @@ F 3 "" H 9800 17350 50  0001 C CNN
 	1    9800 17350
 	1    0    0    1   
 $EndComp
-Text HLabel 9900 17050 1    60   Input ~ 0
-VIN(12V)
 Text HLabel 8150 18800 0    60   Input ~ 0
 GND
 Text HLabel 9400 18500 2    60   Input ~ 0
@@ -1469,8 +1334,6 @@ F 3 "" H 10000 18900 50  0001 C CNN
 $EndComp
 Text HLabel 10200 18900 2    60   Input ~ 0
 GND
-Text HLabel 9400 18200 2    60   Input ~ 0
-VIN(12V)
 Text HLabel 9900 18500 2    60   Input ~ 0
 PB3_NO
 Text HLabel 8650 19100 0    60   Input ~ 0
@@ -1487,7 +1350,7 @@ F 3 "" H 9250 17350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Text HLabel 8750 19100 2    60   Input ~ 0
-VIN(12V)
+VBAT+
 Text HLabel 9850 18800 2    60   Input ~ 0
 PB3_NC
 NoConn ~ 9350 18400
@@ -1509,11 +1372,9 @@ Text HLabel 11150 1350 0    60   Input ~ 0
 NoConn ~ 11200 1250
 Text HLabel 11150 1450 0    60   Input ~ 0
 GND
-Text HLabel 7950 2850 2    60   Output ~ 0
-PSU3_GND
-Text HLabel 8400 3200 0    60   Input ~ 0
-VIN(12V)
-Text HLabel 4500 7400 0    60   Output ~ 0
+Text HLabel 4300 8200 0    60   Output ~ 0
+PSU4_GND
+Text HLabel 4300 7400 0    60   Output ~ 0
 PSU3_12V
 $Sheet
 S 4650 7200 1200 400 
@@ -1555,7 +1416,7 @@ F3 "ENABLE" I R 5850 8050 60
 F4 "GND" I R 5850 8150 60 
 F5 "SOURCE" I R 5850 7950 60 
 $EndSheet
-Text GLabel 8100 8300 0    39   Input ~ 0
+Text GLabel 8700 8300 0    39   Input ~ 0
 PSU4_EN_PIN
 Text GLabel 5900 8050 2    39   Input ~ 0
 PSU4_EN_PIN
@@ -1563,12 +1424,10 @@ Text HLabel 5900 7950 2    60   Input ~ 0
 VBAT+
 Text HLabel 5900 8150 2    60   Input ~ 0
 GND
-Text HLabel 7950 2950 2    60   Output ~ 0
-PSU4_12V
 $Sheet
 S 4600 4750 1200 400 
 U 5B162D7A
-F0 "sheet5B162D74" 60
+F0 "PMOS1_P" 60
 F1 "filePMOS1.sch" 60
 F2 "DRAIN" O L 4600 4950 60 
 F3 "ENABLE" I R 5800 4950 60 
@@ -1581,19 +1440,19 @@ Text HLabel 5850 4850 2    60   Input ~ 0
 VBAT+
 Text HLabel 5850 5050 2    60   Input ~ 0
 GND
-Text GLabel 8100 9550 0    39   Input ~ 0
+Text GLabel 8700 9550 0    39   Input ~ 0
 GPN1_EN_PIN
-Text GLabel 8100 9450 0    39   Input ~ 0
+Text GLabel 8700 9450 0    39   Input ~ 0
 GPN0_EN_PIN
 $Comp
 L ARDUINO_MEGA_SHIELD SHIELD1
 U 1 1 5A219676
-P 9050 7350
-F 0 "SHIELD1" H 8600 10450 60  0000 C CNN
-F 1 "ARDUINO_MEGA_SHIELD" H 8950 4650 60  0000 C CNN
-F 2 "freetronics_footprints:ARDUINO_MEGA_SHIELD" H 9050 7150 50  0001 C CNN
-F 3 "" H 9050 7350 60  0000 C CNN
-	1    9050 7350
+P 9650 7350
+F 0 "SHIELD1" H 9200 10450 60  0000 C CNN
+F 1 "ARDUINO_MEGA_SHIELD" H 9550 4650 60  0000 C CNN
+F 2 "freetronics_footprints:ARDUINO_MEGA_SHIELD" H 9650 7150 50  0001 C CNN
+F 3 "" H 9650 7350 60  0000 C CNN
+	1    9650 7350
 	-1   0    0    -1  
 $EndComp
 Text GLabel 2850 7250 2    39   Input ~ 0
@@ -1656,13 +1515,13 @@ Text HLabel 2850 9400 2    60   Input ~ 0
 GND
 Text GLabel 2850 8600 2    39   Input ~ 0
 GPP0_EN_PIN
-Text GLabel 10100 9700 2    39   Input ~ 0
+Text GLabel 10700 9700 2    39   Input ~ 0
 GPP1_EN_PIN
 Text HLabel 1450 8600 0    60   Output ~ 0
 GPP0
 Text HLabel 1450 9300 0    60   Output ~ 0
 GPP1
-Text GLabel 10100 9800 2    39   Input ~ 0
+Text GLabel 10700 9800 2    39   Input ~ 0
 GPP0_EN_PIN
 Text GLabel 2850 9300 2    39   Input ~ 0
 GPP0_EN_PIN
@@ -1723,8 +1582,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 4700 1600 4700
 Wire Wire Line
-	13100 16800 13350 16800
-Wire Wire Line
 	4450 5600 4600 5600
 Wire Wire Line
 	4600 4200 4450 4200
@@ -1766,10 +1623,6 @@ Wire Wire Line
 Wire Wire Line
 	12250 10350 12300 10350
 Wire Wire Line
-	14600 16900 14550 16900
-Wire Wire Line
-	14600 18250 14550 18250
-Wire Wire Line
 	2850 4800 2800 4800
 Wire Wire Line
 	4900 17050 4850 17050
@@ -1793,10 +1646,6 @@ Wire Wire Line
 	5850 4200 5800 4200
 Wire Wire Line
 	6250 5600 5800 5600
-Wire Wire Line
-	14600 18150 14550 18150
-Wire Wire Line
-	14550 16800 14600 16800
 Wire Wire Line
 	4850 17150 4900 17150
 Wire Wire Line
@@ -2186,107 +2035,107 @@ Wire Wire Line
 Wire Wire Line
 	9450 1050 9500 1050
 Wire Wire Line
-	8100 5400 8150 5400
+	8700 5400 8750 5400
 Wire Wire Line
-	8100 5500 8150 5500
+	8700 5500 8750 5500
 Wire Wire Line
-	8100 5600 8150 5600
+	8700 5600 8750 5600
 Wire Wire Line
-	8100 5700 8150 5700
+	8700 5700 8750 5700
 Wire Wire Line
-	8100 5900 8150 5900
+	8700 5900 8750 5900
 Wire Wire Line
-	8100 6000 8150 6000
+	8700 6000 8750 6000
 Wire Wire Line
-	8100 6100 8150 6100
+	8700 6100 8750 6100
 Wire Wire Line
-	8100 6200 8150 6200
+	8700 6200 8750 6200
 Wire Wire Line
-	8100 6300 8150 6300
+	8700 6300 8750 6300
 Wire Wire Line
-	8100 7750 8150 7750
+	8700 7750 8750 7750
 Wire Wire Line
-	8150 7850 8100 7850
+	8750 7850 8700 7850
 Wire Wire Line
-	8100 8100 8150 8100
+	8700 8100 8750 8100
 Wire Wire Line
-	8100 8000 8150 8000
+	8700 8000 8750 8000
 Wire Wire Line
-	8100 8200 8150 8200
+	8700 8200 8750 8200
 Wire Wire Line
-	8100 8400 8150 8400
+	8700 8400 8750 8400
 Wire Wire Line
-	8150 8500 8100 8500
+	8750 8500 8700 8500
 Wire Wire Line
-	8100 8600 8150 8600
+	8700 8600 8750 8600
 Wire Wire Line
-	8150 8700 8100 8700
+	8750 8700 8700 8700
 Wire Wire Line
-	8100 8850 8150 8850
+	8700 8850 8750 8850
 Wire Wire Line
-	8150 8950 8100 8950
+	8750 8950 8700 8950
 Wire Wire Line
-	8100 9050 8150 9050
+	8700 9050 8750 9050
 Wire Wire Line
-	8150 9150 8100 9150
+	8750 9150 8700 9150
 Wire Wire Line
-	8100 9250 8150 9250
+	8700 9250 8750 9250
 Wire Wire Line
-	8150 9350 8100 9350
+	8750 9350 8700 9350
 Wire Wire Line
-	10100 8950 10050 8950
+	10700 8950 10650 8950
 Wire Wire Line
-	10050 9050 10100 9050
+	10650 9050 10700 9050
 Wire Wire Line
-	10100 9150 10050 9150
+	10700 9150 10650 9150
 Wire Wire Line
-	10050 9250 10100 9250
+	10650 9250 10700 9250
 Wire Wire Line
-	10100 9350 10050 9350
+	10700 9350 10650 9350
 Wire Wire Line
-	10100 9600 10050 9600
+	10700 9600 10650 9600
 Wire Wire Line
-	10050 9500 10100 9500
+	10650 9500 10700 9500
 Wire Wire Line
-	10100 7400 10050 7400
+	10700 7400 10650 7400
 Wire Wire Line
-	10100 7300 10050 7300
+	10700 7300 10650 7300
 Wire Wire Line
-	10100 7200 10050 7200
+	10700 7200 10650 7200
 Wire Wire Line
-	10100 7100 10050 7100
+	10700 7100 10650 7100
 Wire Wire Line
-	10100 7000 10050 7000
+	10700 7000 10650 7000
 Wire Wire Line
-	10100 6800 10050 6800
+	10700 6800 10650 6800
 Wire Wire Line
-	10100 6700 10050 6700
+	10700 6700 10650 6700
 Wire Wire Line
-	10100 6600 10050 6600
+	10700 6600 10650 6600
 Wire Wire Line
-	10100 6500 10050 6500
+	10700 6500 10650 6500
 Wire Wire Line
-	10100 6400 10050 6400
+	10700 6400 10650 6400
 Wire Wire Line
-	10100 6300 10050 6300
+	10700 6300 10650 6300
 Wire Wire Line
-	10100 6200 10050 6200
+	10700 6200 10650 6200
 Wire Wire Line
-	10100 6100 10050 6100
+	10700 6100 10650 6100
 Wire Wire Line
-	10100 5800 10050 5800
+	10700 5800 10650 5800
 Wire Wire Line
-	10100 5600 10050 5600
+	10700 5600 10650 5600
 Wire Wire Line
-	10100 5700 10050 5700
+	10700 5700 10650 5700
 Wire Wire Line
-	10050 7950 10100 7950
+	10650 7950 10700 7950
 Wire Wire Line
-	10100 8050 10050 8050
+	10700 8050 10650 8050
 Wire Wire Line
-	8150 7200 8100 7200
+	8750 7200 8700 7200
 Wire Wire Line
-	8100 7300 8150 7300
+	8700 7300 8750 7300
 Wire Wire Line
 	2500 1950 2450 1950
 Wire Wire Line
@@ -2301,8 +2150,6 @@ Connection ~ 6850 2900
 Wire Wire Line
 	6800 2800 6900 2800
 Wire Wire Line
-	6800 3400 6900 3400
-Wire Wire Line
 	1200 13450 1400 13450
 Wire Wire Line
 	1200 13350 1400 13350
@@ -2311,43 +2158,15 @@ Wire Wire Line
 Wire Wire Line
 	12250 11250 12300 11250
 Wire Wire Line
-	10100 5500 10050 5500
+	10700 5500 10650 5500
 Wire Wire Line
 	12250 11050 12300 11050
 Wire Wire Line
 	13700 11150 13500 11150
 Wire Wire Line
-	8100 6400 8150 6400
+	8700 6400 8750 6400
 Wire Wire Line
 	12250 11150 12300 11150
-Wire Wire Line
-	12800 17100 12800 17000
-Wire Wire Line
-	12800 16400 12800 16600
-Wire Wire Line
-	12800 16500 12900 16500
-Connection ~ 12800 16500
-Wire Wire Line
-	13100 18150 13350 18150
-Wire Wire Line
-	11500 18450 12800 18450
-Wire Wire Line
-	12800 18450 12800 18350
-Wire Wire Line
-	12800 17750 12800 17950
-Wire Wire Line
-	12800 17850 12900 17850
-Connection ~ 12800 17850
-Wire Wire Line
-	13200 17850 13250 17850
-Wire Wire Line
-	13250 17850 13250 18150
-Connection ~ 13250 18150
-Wire Wire Line
-	13200 16500 13250 16500
-Wire Wire Line
-	13250 16500 13250 16800
-Connection ~ 13250 16800
 Wire Wire Line
 	2700 17050 2700 17750
 Wire Wire Line
@@ -2391,13 +2210,11 @@ Wire Wire Line
 	6250 16200 6250 17150
 Wire Wire Line
 	6350 16800 6250 16800
-Wire Wire Line
-	11500 17100 12800 17100
 Connection ~ 11850 17100
 Wire Wire Line
 	11850 17250 11850 17100
 Wire Wire Line
-	11500 17700 11850 17700
+	11250 17700 11850 17700
 Wire Wire Line
 	11850 17650 11850 17750
 Connection ~ 11850 17700
@@ -2405,7 +2222,7 @@ Wire Wire Line
 	11850 18150 11850 18450
 Connection ~ 11850 18450
 Wire Wire Line
-	9900 17050 9900 17150
+	9900 16950 9900 17150
 Wire Wire Line
 	9900 17550 9900 17700
 Wire Wire Line
@@ -2468,15 +2285,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 18300 10550 18300
 Wire Wire Line
-	10200 18600 10200 18700
-Wire Wire Line
-	10200 18700 10650 18700
-Wire Wire Line
-	10650 18700 10650 18600
-Wire Wire Line
-	10650 18600 10700 18600
-Connection ~ 10200 18600
-Wire Wire Line
 	10550 18300 10550 19200
 Wire Wire Line
 	8200 18400 7750 18400
@@ -2495,15 +2303,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 2600 6850 2900
 Wire Wire Line
-	4500 7400 4650 7400
-Wire Wire Line
 	5900 7300 5850 7300
 Wire Wire Line
 	5850 7500 5900 7500
 Wire Wire Line
 	5900 7400 5850 7400
 Wire Wire Line
-	4500 6750 4650 6750
+	4300 6750 4650 6750
 Wire Wire Line
 	5900 6650 5850 6650
 Wire Wire Line
@@ -2511,7 +2317,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 6750 5850 6750
 Wire Wire Line
-	4500 8050 4650 8050
+	4300 8050 4650 8050
 Wire Wire Line
 	5900 7950 5850 7950
 Wire Wire Line
@@ -2519,7 +2325,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 8050 5850 8050
 Wire Wire Line
-	8100 8300 8150 8300
+	8700 8300 8750 8300
 Wire Wire Line
 	4450 4950 4600 4950
 Wire Wire Line
@@ -2534,9 +2340,9 @@ Wire Wire Line
 	6250 5300 6400 5300
 Connection ~ 6250 5300
 Wire Wire Line
-	8100 9550 8150 9550
+	8700 9550 8750 9550
 Wire Wire Line
-	8150 9450 8100 9450
+	8750 9450 8700 9450
 Wire Wire Line
 	1500 7250 1600 7250
 Wire Wire Line
@@ -2566,14 +2372,13 @@ Wire Wire Line
 Wire Wire Line
 	2850 9300 2800 9300
 Wire Wire Line
-	10100 9700 10050 9700
+	10700 9700 10650 9700
 Wire Wire Line
-	10100 9800 10050 9800
-NoConn ~ 8150 5300
-Text GLabel 10100 8650 2    39   Input ~ 0
+	10700 9800 10650 9800
+Text GLabel 10700 8650 2    39   Input ~ 0
 ECF_EN_PIN
 Wire Wire Line
-	10100 8650 10050 8650
+	10700 8650 10650 8650
 $Comp
 L R R?
 U 1 1 5B24197D
@@ -2675,8 +2480,247 @@ Wire Wire Line
 	13600 11650 13600 11600
 Wire Wire Line
 	13600 11600 13700 11600
-Text GLabel 10100 7500 2    39   Input ~ 0
+Text GLabel 10700 7500 2    39   Input ~ 0
 CSS_SIG_PIN
 Wire Wire Line
-	10100 7500 10050 7500
+	10700 7500 10650 7500
+Text HLabel 11550 2700 0    60   Input ~ 0
+5V
+Text HLabel 11850 2700 2    60   Input ~ 0
+LDR1
+Text HLabel 11850 2800 2    60   Input ~ 0
+LDR2
+Wire Wire Line
+	11550 2700 11850 2700
+$Comp
+L R R?
+U 1 1 5B0502D8
+P 11700 3050
+F 0 "R?" V 11780 3050 50  0000 C CNN
+F 1 "10KΩ" V 11700 3050 35  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 3050 50  0001 C CNN
+F 3 "" H 11700 3050 50  0001 C CNN
+	1    11700 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11600 2800 11850 2800
+Wire Wire Line
+	11700 2800 11700 2900
+Text HLabel 11850 3300 2    60   Input ~ 0
+GND
+Wire Wire Line
+	11700 3300 11700 3200
+Wire Wire Line
+	11850 3300 11700 3300
+Text GLabel 10700 7600 2    39   Input ~ 0
+LDR_SIG_PIN
+Wire Wire Line
+	10700 7600 10650 7600
+Text GLabel 11600 2800 0    39   Input ~ 0
+LDR_SIG_PIN
+Connection ~ 11700 2800
+Text HLabel 4850 17050 0    60   Input ~ 0
+VBAT+
+Text HLabel 4850 17700 0    60   Input ~ 0
+VBAT+
+Text HLabel 9400 18200 2    60   Input ~ 0
+VBAT+
+Text HLabel 9850 16950 0    60   Input ~ 0
+VBAT+
+Text HLabel 10700 5600 2    60   Input ~ 0
+5V
+Wire Wire Line
+	8750 5300 8700 5300
+Text HLabel 12250 6050 0    60   Input ~ 0
+5V
+Text HLabel 8700 7750 0    60   Input ~ 0
+5V
+Text HLabel 8700 7850 0    60   Input ~ 0
+5V
+Text HLabel 12250 6750 0    60   Input ~ 0
+5V
+Text HLabel 12250 7450 0    60   Input ~ 0
+5V
+Text HLabel 12250 8850 0    60   Input ~ 0
+5V
+Text HLabel 12250 10950 0    60   Input ~ 0
+5V
+Text HLabel 2400 13350 2    60   Input ~ 0
+5V
+Text HLabel 2400 12600 2    60   Input ~ 0
+5V
+Text HLabel 2400 14100 2    60   Input ~ 0
+5V
+Text HLabel 4550 14100 2    60   Input ~ 0
+5V
+Text HLabel 4550 13350 2    60   Input ~ 0
+5V
+Text HLabel 4550 12600 2    60   Input ~ 0
+5V
+Text HLabel 4550 11850 2    60   Input ~ 0
+5V
+Text HLabel 6700 11850 2    60   Input ~ 0
+5V
+Text HLabel 6700 12600 2    60   Input ~ 0
+5V
+Text HLabel 6700 13400 2    60   Input ~ 0
+5V
+Text HLabel 9000 11850 2    60   Input ~ 0
+5V
+Text HLabel 8850 14100 2    60   Input ~ 0
+5V
+Text HLabel 11000 14100 2    60   Input ~ 0
+5V
+Text HLabel 13150 14100 2    60   Input ~ 0
+5V
+Text HLabel 2400 11850 2    60   Input ~ 0
+5V
+$Sheet
+S 12500 16900 1200 400 
+U 5B193940
+F0 "PMOS1_Q" 60
+F1 "filePMOS1.sch" 60
+F2 "DRAIN" O L 12500 17100 60 
+F3 "ENABLE" I R 13700 17100 60 
+F4 "GND" I R 13700 17200 60 
+F5 "SOURCE" I R 13700 17000 60 
+$EndSheet
+Text HLabel 13750 17200 2    60   Input ~ 0
+GND
+Wire Wire Line
+	11150 17100 12500 17100
+Wire Wire Line
+	13700 17000 13750 17000
+Wire Wire Line
+	13700 17200 13750 17200
+Wire Wire Line
+	13750 17100 13700 17100
+Text HLabel 13750 17000 2    60   Input ~ 0
+VBAT+
+$Sheet
+S 12500 18250 1200 400 
+U 5B1AFE32
+F0 "PMOS1_R" 60
+F1 "filePMOS1.sch" 60
+F2 "DRAIN" O L 12500 18450 60 
+F3 "ENABLE" I R 13700 18450 60 
+F4 "GND" I R 13700 18550 60 
+F5 "SOURCE" I R 13700 18350 60 
+$EndSheet
+Text HLabel 13750 18550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	11200 18450 12500 18450
+Wire Wire Line
+	13700 18350 13750 18350
+Wire Wire Line
+	13700 18550 13750 18550
+Wire Wire Line
+	13750 18450 13700 18450
+Text HLabel 13750 18350 2    60   Input ~ 0
+VBAT+
+Wire Wire Line
+	9850 16950 9900 16950
+Text HLabel 11550 18150 2    60   Input ~ 0
+GND
+Wire Wire Line
+	11550 18150 11450 18150
+$Sheet
+S 14150 1450 600  300 
+U 5B2166FB
+F0 "logicLevel1" 60
+F1 "logicLevelShift.sch" 60
+F2 "LV" I L 14150 1550 60 
+F3 "LS" I L 14150 1650 60 
+F4 "HS" I R 14750 1650 60 
+F5 "HV" I R 14750 1550 60 
+$EndSheet
+$Sheet
+S 14150 2000 600  300 
+U 5B235833
+F0 "logicLevel2" 60
+F1 "logicLevelShift.sch" 60
+F2 "LV" I L 14150 2100 60 
+F3 "LS" I L 14150 2200 60 
+F4 "HS" I R 14750 2200 60 
+F5 "HV" I R 14750 2100 60 
+$EndSheet
+Wire Wire Line
+	13950 1550 14150 1550
+Wire Wire Line
+	14050 1550 14050 2100
+Wire Wire Line
+	14050 2100 14150 2100
+Text HLabel 14800 2100 2    60   Input ~ 0
+5V
+Wire Wire Line
+	14800 2100 14750 2100
+Text HLabel 14800 1550 2    60   Input ~ 0
+5V
+Wire Wire Line
+	14800 1550 14750 1550
+Wire Wire Line
+	14800 1650 14750 1650
+Wire Wire Line
+	14800 2200 14750 2200
+Text HLabel 13950 1550 0    60   Input ~ 0
+RPI3V3
+Connection ~ 14050 1550
+Text HLabel 13950 1650 0    60   Input ~ 0
+RPITX
+Text HLabel 13950 2200 0    60   Input ~ 0
+RPIRX
+Wire Wire Line
+	13950 2200 14150 2200
+Wire Wire Line
+	13950 1650 14150 1650
+Text GLabel 14800 2200 2    39   Input ~ 0
+RPI_RX
+Text GLabel 14800 1650 2    39   Input ~ 0
+RPI_TX
+Text GLabel 8650 6900 0    39   Input ~ 0
+RPI_TX
+Wire Wire Line
+	8650 6900 8750 6900
+Text GLabel 8650 6800 0    39   Input ~ 0
+RPI_RX
+Wire Wire Line
+	8650 6800 8750 6800
+Text HLabel 6800 2800 0    60   Input ~ 0
+VBAT+
+Text HLabel 13700 4050 2    60   Input ~ 0
+VBAT+
+Text HLabel 13950 2550 0    60   Input ~ 0
+RPIGND
+Text HLabel 14150 2550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	14150 2550 13950 2550
+Text HLabel 9650 3250 0    60   Input ~ 0
+HORN
+Text HLabel 9650 3350 0    60   Input ~ 0
+PKLT
+Text HLabel 9650 3450 0    60   Input ~ 0
+HLH
+Text HLabel 9650 3550 0    60   Input ~ 0
+HLL
+Text HLabel 4350 6900 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4300 6900 4350 6900
+Text HLabel 4350 7550 2    60   Input ~ 0
+GND
+Text HLabel 4350 8200 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4300 7400 4650 7400
+Wire Wire Line
+	4300 7550 4350 7550
+Wire Wire Line
+	4300 8200 4350 8200
+Text HLabel 1600 1650 0    60   Input ~ 0
+5V
+Text HLabel 3750 1750 0    60   Input ~ 0
+5V
 $EndSCHEMATC

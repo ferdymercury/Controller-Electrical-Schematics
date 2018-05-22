@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 51
+Sheet 4 54
 Title "sensor-mcu"
 Date "2017-10-11"
 Rev "0.1"

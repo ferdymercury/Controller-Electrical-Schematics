@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 44 51
+Sheet 44 54
 Title ""
 Date ""
 Rev ""
@@ -121,7 +121,7 @@ GND
 Text HLabel 4400 4200 3    60   Input ~ 0
 GND
 Text HLabel 5050 2350 2    60   Input ~ 0
-VIN(12V)
+VBAT+
 $Comp
 L R R3
 U 1 1 5A25E312
