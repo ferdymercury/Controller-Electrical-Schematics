@@ -347,8 +347,6 @@ Text GLabel 4850 17800 0    39   Input ~ 0
 WIPEH_EN_PIN
 Text GLabel 8700 5400 0    39   Input ~ 0
 WIPEH_EN_PIN
-Text HLabel 9450 1050 0    60   Input ~ 0
-VBAT-
 Text HLabel 9450 1350 0    60   Input ~ 0
 RS1_L1
 Text HLabel 9450 1450 0    60   Input ~ 0
@@ -1168,10 +1166,10 @@ TACK_SIG_PIN
 Text GLabel 12250 11150 0    39   Input ~ 0
 TACK_SIG_PIN
 $Comp
-L 2N3904 Q?
+L 2N3904 Q1
 U 1 1 5AED7F9F
 P 2600 16850
-F 0 "Q?" H 2800 16925 50  0000 L CNN
+F 0 "Q1" H 2800 16925 50  0000 L CNN
 F 1 "2N3904" H 2800 16850 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2800 16775 50  0001 L CIN
 F 3 "" H 2600 16850 50  0001 L CNN
@@ -1179,10 +1177,10 @@ F 3 "" H 2600 16850 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R7
 U 1 1 5AED7FA6
 P 2100 16850
-F 0 "R?" V 2180 16850 50  0000 C CNN
+F 0 "R7" V 2180 16850 50  0000 C CNN
 F 1 "1KΩ" V 2100 16850 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 16850 50  0001 C CNN
 F 3 "" H 2100 16850 50  0001 C CNN
@@ -1190,10 +1188,10 @@ F 3 "" H 2100 16850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R6
 U 1 1 5AED7FAE
 P 3450 15950
-F 0 "R?" V 3530 15950 50  0000 C CNN
+F 0 "R6" V 3530 15950 50  0000 C CNN
 F 1 "560Ω" V 3450 15950 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 15950 50  0001 C CNN
 F 3 "" H 3450 15950 50  0001 C CNN
@@ -1201,10 +1199,10 @@ F 3 "" H 3450 15950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R8
 U 1 1 5AED7FB5
 P 2300 17050
-F 0 "R?" V 2380 17050 50  0000 C CNN
+F 0 "R8" V 2380 17050 50  0000 C CNN
 F 1 "10KΩ" V 2300 17050 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 17050 50  0001 C CNN
 F 3 "" H 2300 17050 50  0001 C CNN
@@ -1218,10 +1216,10 @@ GND
 Text HLabel 1750 17750 3    60   Input ~ 0
 GND
 $Comp
-L R R?
+L R R10
 U 1 1 5AED7FD4
 P 1750 17500
-F 0 "R?" V 1830 17500 50  0000 C CNN
+F 0 "R10" V 1830 17500 50  0000 C CNN
 F 1 "330Ω" V 1750 17500 39  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1680 17500 50  0001 C CNN
 F 3 "" H 1750 17500 50  0001 C CNN
@@ -1229,10 +1227,10 @@ F 3 "" H 1750 17500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED D1
 U 1 1 5AED7FDC
 P 1750 17150
-F 0 "D?" H 1750 17250 50  0000 C CNN
+F 0 "D1" H 1750 17250 50  0000 C CNN
 F 1 "LED" H 1750 17050 50  0000 C CNN
 F 2 "LEDs:LED_D5.0mm" H 1750 17150 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf" H 1750 17150 50  0001 C CNN
@@ -1240,10 +1238,10 @@ F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf" H 1750 17150
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CPC1017N U?
+L CPC1017N U2
 U 1 1 5AF0BC4F
 P 3450 16450
-F 0 "U?" H 3450 16800 50  0000 C CNN
+F 0 "U2" H 3450 16800 50  0000 C CNN
 F 1 "CPC1977" H 3450 16093 50  0000 C CNN
 F 2 "" H 3450 16450 60  0001 C CNN
 F 3 "" H 3450 16450 60  0001 C CNN
@@ -1251,10 +1249,10 @@ F 3 "" H 3450 16450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CD4013B U?
+L CD4013B U3
 U 1 1 5AF78060
 P 8750 18500
-F 0 "U?" H 8750 18050 60  0000 C CNN
+F 0 "U3" H 8750 18050 60  0000 C CNN
 F 1 "CD4013B" H 8750 18950 60  0000 C CNN
 F 2 "" H 8700 18450 60  0001 C CNN
 F 3 "" H 8700 18450 60  0001 C CNN
@@ -1266,32 +1264,10 @@ FLSHEN
 Text HLabel 11250 17700 0    60   Input ~ 0
 FLSHIN
 $Comp
-L DIODE D?
-U 1 1 5AFA34F8
-P 11850 17450
-F 0 "D?" H 11850 17550 40  0000 C CNN
-F 1 "DIODE" H 11850 17350 40  0000 C CNN
-F 2 "" H 11850 17450 60  0000 C CNN
-F 3 "" H 11850 17450 60  0000 C CNN
-	1    11850 17450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DIODE D?
-U 1 1 5AFA74A8
-P 11850 17950
-F 0 "D?" H 11850 18050 40  0000 C CNN
-F 1 "DIODE" H 11850 17850 40  0000 C CNN
-F 2 "" H 11850 17950 60  0000 C CNN
-F 3 "" H 11850 17950 60  0000 C CNN
-	1    11850 17950
-	0    1    1    0   
-$EndComp
-$Comp
-L Q_PMOS_GDS Q?
+L Q_PMOS_GDS Q2
 U 1 1 5AFB2EC4
 P 9800 17350
-F 0 "Q?" H 10000 17400 50  0000 L CNN
+F 0 "Q2" H 10000 17400 50  0000 L CNN
 F 1 "Q_PMOS_GDS" H 10000 17300 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 10000 17450 50  0001 C CNN
 F 3 "" H 9800 17350 50  0001 C CNN
@@ -1309,10 +1285,10 @@ GND
 Text HLabel 8150 18700 0    60   Input ~ 0
 GND
 $Comp
-L R R?
+L R R11
 U 1 1 5AFEB515
 P 10000 18600
-F 0 "R?" V 10080 18600 50  0000 C CNN
+F 0 "R11" V 10080 18600 50  0000 C CNN
 F 1 "1KΩ" V 10000 18600 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9930 18600 50  0001 C CNN
 F 3 "" H 10000 18600 50  0001 C CNN
@@ -1322,10 +1298,10 @@ $EndComp
 Text HLabel 10250 18600 2    60   Input ~ 0
 GND
 $Comp
-L R R?
+L R R12
 U 1 1 5AFEF8D6
 P 10000 18900
-F 0 "R?" V 10080 18900 50  0000 C CNN
+F 0 "R12" V 10080 18900 50  0000 C CNN
 F 1 "1KΩ" V 10000 18900 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9930 18900 50  0001 C CNN
 F 3 "" H 10000 18900 50  0001 C CNN
@@ -1339,10 +1315,10 @@ PB3_NO
 Text HLabel 8650 19100 0    60   Input ~ 0
 PB3_C
 $Comp
-L R R?
+L R R9
 U 1 1 5B01D7C4
 P 9250 17350
-F 0 "R?" V 9330 17350 50  0000 C CNN
+F 0 "R9" V 9330 17350 50  0000 C CNN
 F 1 "10KΩ" V 9250 17350 35  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9180 17350 50  0001 C CNN
 F 3 "" H 9250 17350 50  0001 C CNN
@@ -1355,10 +1331,10 @@ Text HLabel 9850 18800 2    60   Input ~ 0
 PB3_NC
 NoConn ~ 9350 18400
 $Comp
-L NCS3S1205SC U?
+L NCS3S1205SC U1
 U 1 1 5B03E705
 P 11650 1300
-F 0 "U?" H 11650 900 60  0000 C CNN
+F 0 "U1" H 11650 900 60  0000 C CNN
 F 1 "NCS3S1205SC" H 11650 1700 60  0000 C CNN
 F 2 "NCS3S1205SC:NCS3S1205SC" H 11650 1300 60  0001 C CNN
 F 3 "" H 11650 1300 60  0001 C CNN
@@ -1535,6 +1511,293 @@ Text Notes 4400 8550 0    60   ~ 0
 Cruise Control Control Circuits
 Text Notes 4950 3800 0    60   ~ 0
 Starter Circuits\n
+Text GLabel 10700 8650 2    39   Input ~ 0
+ECF_EN_PIN
+$Comp
+L R R3
+U 1 1 5B24197D
+P 13600 9450
+F 0 "R3" V 13680 9450 50  0000 C CNN
+F 1 "1KΩ" V 13600 9450 50  0000 C CNN
+F 2 "" V 13530 9450 50  0001 C CNN
+F 3 "" H 13600 9450 50  0001 C CNN
+	1    13600 9450
+	1    0    0    -1  
+$EndComp
+Text HLabel 13700 9250 2    60   Input ~ 0
+5V
+Text HLabel 13700 9950 2    60   Input ~ 0
+5V
+$Comp
+L R R4
+U 1 1 5B256133
+P 13600 10150
+F 0 "R4" V 13680 10150 50  0000 C CNN
+F 1 "1KΩ" V 13600 10150 50  0000 C CNN
+F 2 "" V 13530 10150 50  0001 C CNN
+F 3 "" H 13600 10150 50  0001 C CNN
+	1    13600 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5B2861B9
+P 13600 7350
+F 0 "R2" V 13680 7350 50  0000 C CNN
+F 1 "1KΩ" V 13600 7350 50  0000 C CNN
+F 2 "" V 13530 7350 50  0001 C CNN
+F 3 "" H 13600 7350 50  0001 C CNN
+	1    13600 7350
+	1    0    0    -1  
+$EndComp
+Text HLabel 13700 7150 2    60   Input ~ 0
+5V
+$Sheet
+S 12300 11800 1200 400 
+U 5B299336
+F0 "Divider1_D" 60
+F1 "fileDivider1.sch" 60
+F2 "GND" I L 12300 12100 60 
+F3 "OUTPUT" O L 12300 12000 60 
+F4 "INPUT" I R 13500 12000 60 
+$EndSheet
+Text HLabel 13700 12000 2    60   Input ~ 0
+CSS
+Text HLabel 12250 12100 0    60   Input ~ 0
+GND
+Text GLabel 12250 12000 0    39   Input ~ 0
+CSS_SIG_PIN
+Text HLabel 13700 11600 2    60   Input ~ 0
+5V
+$Comp
+L R R5
+U 1 1 5B29934C
+P 13600 11800
+F 0 "R5" V 13680 11800 50  0000 C CNN
+F 1 "1KΩ" V 13600 11800 50  0000 C CNN
+F 2 "" V 13530 11800 50  0001 C CNN
+F 3 "" H 13600 11800 50  0001 C CNN
+	1    13600 11800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10700 7500 2    39   Input ~ 0
+CSS_SIG_PIN
+Text HLabel 11550 2700 0    60   Input ~ 0
+5V
+Text HLabel 11850 2700 2    60   Input ~ 0
+LDR1
+Text HLabel 11850 2800 2    60   Input ~ 0
+LDR2
+$Comp
+L R R1
+U 1 1 5B0502D8
+P 11700 3050
+F 0 "R1" V 11780 3050 50  0000 C CNN
+F 1 "10KΩ" V 11700 3050 35  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 3050 50  0001 C CNN
+F 3 "" H 11700 3050 50  0001 C CNN
+	1    11700 3050
+	-1   0    0    1   
+$EndComp
+Text HLabel 11850 3300 2    60   Input ~ 0
+GND
+Text GLabel 10700 7600 2    39   Input ~ 0
+LDR_SIG_PIN
+Text GLabel 11600 2800 0    39   Input ~ 0
+LDR_SIG_PIN
+Text HLabel 4850 17050 0    60   Input ~ 0
+VBAT+
+Text HLabel 4850 17700 0    60   Input ~ 0
+VBAT+
+Text HLabel 9400 18200 2    60   Input ~ 0
+VBAT+
+Text HLabel 9850 16950 0    60   Input ~ 0
+VBAT+
+Text HLabel 10700 5600 2    60   Input ~ 0
+5V
+Text HLabel 12250 6050 0    60   Input ~ 0
+5V
+Text HLabel 8700 7750 0    60   Input ~ 0
+5V
+Text HLabel 8700 7850 0    60   Input ~ 0
+5V
+Text HLabel 12250 6750 0    60   Input ~ 0
+5V
+Text HLabel 12250 7450 0    60   Input ~ 0
+5V
+Text HLabel 12250 8850 0    60   Input ~ 0
+5V
+Text HLabel 12250 10950 0    60   Input ~ 0
+5V
+Text HLabel 2400 13350 2    60   Input ~ 0
+5V
+Text HLabel 2400 12600 2    60   Input ~ 0
+5V
+Text HLabel 2400 14100 2    60   Input ~ 0
+5V
+Text HLabel 4550 14100 2    60   Input ~ 0
+5V
+Text HLabel 4550 13350 2    60   Input ~ 0
+5V
+Text HLabel 4550 12600 2    60   Input ~ 0
+5V
+Text HLabel 4550 11850 2    60   Input ~ 0
+5V
+Text HLabel 6700 11850 2    60   Input ~ 0
+5V
+Text HLabel 6700 12600 2    60   Input ~ 0
+5V
+Text HLabel 6700 13400 2    60   Input ~ 0
+5V
+Text HLabel 9000 11850 2    60   Input ~ 0
+5V
+Text HLabel 8850 14100 2    60   Input ~ 0
+5V
+Text HLabel 11000 14100 2    60   Input ~ 0
+5V
+Text HLabel 13150 14100 2    60   Input ~ 0
+5V
+Text HLabel 2400 11850 2    60   Input ~ 0
+5V
+$Sheet
+S 12500 16900 1200 400 
+U 5B193940
+F0 "PMOS1_Q" 60
+F1 "filePMOS1.sch" 60
+F2 "DRAIN" O L 12500 17100 60 
+F3 "ENABLE" I R 13700 17100 60 
+F4 "GND" I R 13700 17200 60 
+F5 "SOURCE" I R 13700 17000 60 
+$EndSheet
+Text HLabel 13750 17200 2    60   Input ~ 0
+GND
+Text HLabel 13750 17000 2    60   Input ~ 0
+VBAT+
+$Sheet
+S 12500 18250 1200 400 
+U 5B1AFE32
+F0 "PMOS1_R" 60
+F1 "filePMOS1.sch" 60
+F2 "DRAIN" O L 12500 18450 60 
+F3 "ENABLE" I R 13700 18450 60 
+F4 "GND" I R 13700 18550 60 
+F5 "SOURCE" I R 13700 18350 60 
+$EndSheet
+Text HLabel 13750 18550 2    60   Input ~ 0
+GND
+Text HLabel 13750 18350 2    60   Input ~ 0
+VBAT+
+Text HLabel 11550 18150 2    60   Input ~ 0
+GND
+$Sheet
+S 14150 1450 600  300 
+U 5B2166FB
+F0 "logicLevel1" 60
+F1 "logicLevelShift.sch" 60
+F2 "LV" I L 14150 1550 60 
+F3 "LS" I L 14150 1650 60 
+F4 "HS" I R 14750 1650 60 
+F5 "HV" I R 14750 1550 60 
+$EndSheet
+$Sheet
+S 14150 2000 600  300 
+U 5B235833
+F0 "logicLevel2" 60
+F1 "logicLevelShift.sch" 60
+F2 "LV" I L 14150 2100 60 
+F3 "LS" I L 14150 2200 60 
+F4 "HS" I R 14750 2200 60 
+F5 "HV" I R 14750 2100 60 
+$EndSheet
+Text HLabel 14800 2100 2    60   Input ~ 0
+5V
+Text HLabel 14800 1550 2    60   Input ~ 0
+5V
+Text HLabel 13950 1550 0    60   Input ~ 0
+RPI3V3
+Text HLabel 13950 1650 0    60   Input ~ 0
+RPITX
+Text HLabel 13950 2200 0    60   Input ~ 0
+RPIRX
+Text GLabel 14800 2200 2    39   Input ~ 0
+RPI_RX
+Text GLabel 14800 1650 2    39   Input ~ 0
+RPI_TX
+Text GLabel 8650 6900 0    39   Input ~ 0
+RPI_TX
+Text GLabel 8650 6800 0    39   Input ~ 0
+RPI_RX
+Text HLabel 6800 2800 0    60   Input ~ 0
+VBAT+
+Text HLabel 13700 4050 2    60   Input ~ 0
+VBAT+
+Text HLabel 13950 2550 0    60   Input ~ 0
+RPIGND
+Text HLabel 14150 2550 2    60   Input ~ 0
+GND
+Text HLabel 9650 2650 0    60   Input ~ 0
+HORN
+Text HLabel 8650 3850 2    60   Input ~ 0
+PKLT
+Text HLabel 8650 2800 2    60   Input ~ 0
+HLH
+Text HLabel 8650 3350 2    60   Input ~ 0
+HLL
+Text HLabel 4350 6900 2    60   Input ~ 0
+GND
+Text HLabel 4350 7550 2    60   Input ~ 0
+GND
+Text HLabel 4350 8200 2    60   Input ~ 0
+GND
+Text HLabel 1600 1650 0    60   Input ~ 0
+5V
+Text HLabel 3750 1750 0    60   Input ~ 0
+5V
+Text HLabel 9450 1050 0    60   Input ~ 0
+GND
+Text HLabel 8450 2700 0    60   Input ~ 0
+RS2_A
+Text HLabel 8450 3850 0    60   Input ~ 0
+RS2_2
+Text HLabel 8450 3350 0    60   Input ~ 0
+RS2_3
+Text HLabel 8450 2800 0    60   Input ~ 0
+RS2_4
+Text HLabel 8650 2700 2    60   Input ~ 0
+GND
+$Comp
+L D D?
+U 1 1 5B1225F5
+P 8550 3600
+F 0 "D?" H 8550 3700 50  0000 C CNN
+F 1 "D" H 8550 3500 50  0000 C CNN
+F 2 "" H 8550 3600 50  0001 C CNN
+F 3 "" H 8550 3600 50  0001 C CNN
+	1    8550 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B122D92
+P 8550 3050
+F 0 "D?" H 8550 3150 50  0000 C CNN
+F 1 "D" H 8550 2950 50  0000 C CNN
+F 2 "" H 8550 3050 50  0001 C CNN
+F 3 "" H 8550 3050 50  0001 C CNN
+	1    8550 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 5B127C50
+P 11850 17450
+F 0 "D?" H 11850 17550 50  0000 C CNN
+F 1 "D" H 11850 17350 50  0000 C CNN
+F 2 "" H 11850 17450 50  0001 C CNN
+F 3 "" H 11850 17450 50  0001 C CNN
+	1    11850 17450
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	13700 4050 13500 4050
 Wire Wire Line
@@ -2212,14 +2475,14 @@ Wire Wire Line
 	6350 16800 6250 16800
 Connection ~ 11850 17100
 Wire Wire Line
-	11850 17250 11850 17100
+	11850 17100 11850 17300
 Wire Wire Line
 	11250 17700 11850 17700
 Wire Wire Line
-	11850 17650 11850 17750
+	11850 17600 11850 17800
 Connection ~ 11850 17700
 Wire Wire Line
-	11850 18150 11850 18450
+	11850 18100 11850 18450
 Connection ~ 11850 18450
 Wire Wire Line
 	9900 16950 9900 17150
@@ -2375,62 +2638,21 @@ Wire Wire Line
 	10700 9700 10650 9700
 Wire Wire Line
 	10700 9800 10650 9800
-Text GLabel 10700 8650 2    39   Input ~ 0
-ECF_EN_PIN
 Wire Wire Line
 	10700 8650 10650 8650
-$Comp
-L R R?
-U 1 1 5B24197D
-P 13600 9450
-F 0 "R?" V 13680 9450 50  0000 C CNN
-F 1 "1KΩ" V 13600 9450 50  0000 C CNN
-F 2 "" V 13530 9450 50  0001 C CNN
-F 3 "" H 13600 9450 50  0001 C CNN
-	1    13600 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13600 9600 13600 9650
 Connection ~ 13600 9650
-Text HLabel 13700 9250 2    60   Input ~ 0
-5V
 Wire Wire Line
 	13600 9250 13600 9300
-Text HLabel 13700 9950 2    60   Input ~ 0
-5V
-$Comp
-L R R?
-U 1 1 5B256133
-P 13600 10150
-F 0 "R?" V 13680 10150 50  0000 C CNN
-F 1 "1KΩ" V 13600 10150 50  0000 C CNN
-F 2 "" V 13530 10150 50  0001 C CNN
-F 3 "" H 13600 10150 50  0001 C CNN
-	1    13600 10150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13600 10300 13600 10350
 Connection ~ 13600 10350
 Wire Wire Line
 	13600 10000 13600 9950
-$Comp
-L R R?
-U 1 1 5B2861B9
-P 13600 7350
-F 0 "R?" V 13680 7350 50  0000 C CNN
-F 1 "1KΩ" V 13600 7350 50  0000 C CNN
-F 2 "" V 13530 7350 50  0001 C CNN
-F 3 "" H 13600 7350 50  0001 C CNN
-	1    13600 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13600 7500 13600 7550
 Connection ~ 13600 7550
-Text HLabel 13700 7150 2    60   Input ~ 0
-5V
 Wire Wire Line
 	13700 7150 13600 7150
 Wire Wire Line
@@ -2439,40 +2661,12 @@ Wire Wire Line
 	13700 9250 13600 9250
 Wire Wire Line
 	13600 9950 13700 9950
-$Sheet
-S 12300 11800 1200 400 
-U 5B299336
-F0 "Divider1_D" 60
-F1 "fileDivider1.sch" 60
-F2 "GND" I L 12300 12100 60 
-F3 "OUTPUT" O L 12300 12000 60 
-F4 "INPUT" I R 13500 12000 60 
-$EndSheet
-Text HLabel 13700 12000 2    60   Input ~ 0
-CSS
-Text HLabel 12250 12100 0    60   Input ~ 0
-GND
-Text GLabel 12250 12000 0    39   Input ~ 0
-CSS_SIG_PIN
 Wire Wire Line
 	13700 12000 13500 12000
 Wire Wire Line
 	12250 12100 12300 12100
 Wire Wire Line
 	12250 12000 12300 12000
-Text HLabel 13700 11600 2    60   Input ~ 0
-5V
-$Comp
-L R R?
-U 1 1 5B29934C
-P 13600 11800
-F 0 "R?" V 13680 11800 50  0000 C CNN
-F 1 "1KΩ" V 13600 11800 50  0000 C CNN
-F 2 "" V 13530 11800 50  0001 C CNN
-F 3 "" H 13600 11800 50  0001 C CNN
-	1    13600 11800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13600 11950 13600 12000
 Connection ~ 13600 12000
@@ -2480,114 +2674,23 @@ Wire Wire Line
 	13600 11650 13600 11600
 Wire Wire Line
 	13600 11600 13700 11600
-Text GLabel 10700 7500 2    39   Input ~ 0
-CSS_SIG_PIN
 Wire Wire Line
 	10700 7500 10650 7500
-Text HLabel 11550 2700 0    60   Input ~ 0
-5V
-Text HLabel 11850 2700 2    60   Input ~ 0
-LDR1
-Text HLabel 11850 2800 2    60   Input ~ 0
-LDR2
 Wire Wire Line
 	11550 2700 11850 2700
-$Comp
-L R R?
-U 1 1 5B0502D8
-P 11700 3050
-F 0 "R?" V 11780 3050 50  0000 C CNN
-F 1 "10KΩ" V 11700 3050 35  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11630 3050 50  0001 C CNN
-F 3 "" H 11700 3050 50  0001 C CNN
-	1    11700 3050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	11600 2800 11850 2800
 Wire Wire Line
 	11700 2800 11700 2900
-Text HLabel 11850 3300 2    60   Input ~ 0
-GND
 Wire Wire Line
 	11700 3300 11700 3200
 Wire Wire Line
 	11850 3300 11700 3300
-Text GLabel 10700 7600 2    39   Input ~ 0
-LDR_SIG_PIN
 Wire Wire Line
 	10700 7600 10650 7600
-Text GLabel 11600 2800 0    39   Input ~ 0
-LDR_SIG_PIN
 Connection ~ 11700 2800
-Text HLabel 4850 17050 0    60   Input ~ 0
-VBAT+
-Text HLabel 4850 17700 0    60   Input ~ 0
-VBAT+
-Text HLabel 9400 18200 2    60   Input ~ 0
-VBAT+
-Text HLabel 9850 16950 0    60   Input ~ 0
-VBAT+
-Text HLabel 10700 5600 2    60   Input ~ 0
-5V
 Wire Wire Line
 	8750 5300 8700 5300
-Text HLabel 12250 6050 0    60   Input ~ 0
-5V
-Text HLabel 8700 7750 0    60   Input ~ 0
-5V
-Text HLabel 8700 7850 0    60   Input ~ 0
-5V
-Text HLabel 12250 6750 0    60   Input ~ 0
-5V
-Text HLabel 12250 7450 0    60   Input ~ 0
-5V
-Text HLabel 12250 8850 0    60   Input ~ 0
-5V
-Text HLabel 12250 10950 0    60   Input ~ 0
-5V
-Text HLabel 2400 13350 2    60   Input ~ 0
-5V
-Text HLabel 2400 12600 2    60   Input ~ 0
-5V
-Text HLabel 2400 14100 2    60   Input ~ 0
-5V
-Text HLabel 4550 14100 2    60   Input ~ 0
-5V
-Text HLabel 4550 13350 2    60   Input ~ 0
-5V
-Text HLabel 4550 12600 2    60   Input ~ 0
-5V
-Text HLabel 4550 11850 2    60   Input ~ 0
-5V
-Text HLabel 6700 11850 2    60   Input ~ 0
-5V
-Text HLabel 6700 12600 2    60   Input ~ 0
-5V
-Text HLabel 6700 13400 2    60   Input ~ 0
-5V
-Text HLabel 9000 11850 2    60   Input ~ 0
-5V
-Text HLabel 8850 14100 2    60   Input ~ 0
-5V
-Text HLabel 11000 14100 2    60   Input ~ 0
-5V
-Text HLabel 13150 14100 2    60   Input ~ 0
-5V
-Text HLabel 2400 11850 2    60   Input ~ 0
-5V
-$Sheet
-S 12500 16900 1200 400 
-U 5B193940
-F0 "PMOS1_Q" 60
-F1 "filePMOS1.sch" 60
-F2 "DRAIN" O L 12500 17100 60 
-F3 "ENABLE" I R 13700 17100 60 
-F4 "GND" I R 13700 17200 60 
-F5 "SOURCE" I R 13700 17000 60 
-$EndSheet
-Text HLabel 13750 17200 2    60   Input ~ 0
-GND
 Wire Wire Line
 	11150 17100 12500 17100
 Wire Wire Line
@@ -2596,20 +2699,6 @@ Wire Wire Line
 	13700 17200 13750 17200
 Wire Wire Line
 	13750 17100 13700 17100
-Text HLabel 13750 17000 2    60   Input ~ 0
-VBAT+
-$Sheet
-S 12500 18250 1200 400 
-U 5B1AFE32
-F0 "PMOS1_R" 60
-F1 "filePMOS1.sch" 60
-F2 "DRAIN" O L 12500 18450 60 
-F3 "ENABLE" I R 13700 18450 60 
-F4 "GND" I R 13700 18550 60 
-F5 "SOURCE" I R 13700 18350 60 
-$EndSheet
-Text HLabel 13750 18550 2    60   Input ~ 0
-GND
 Wire Wire Line
 	11200 18450 12500 18450
 Wire Wire Line
@@ -2618,109 +2707,69 @@ Wire Wire Line
 	13700 18550 13750 18550
 Wire Wire Line
 	13750 18450 13700 18450
-Text HLabel 13750 18350 2    60   Input ~ 0
-VBAT+
 Wire Wire Line
 	9850 16950 9900 16950
-Text HLabel 11550 18150 2    60   Input ~ 0
-GND
 Wire Wire Line
 	11550 18150 11450 18150
-$Sheet
-S 14150 1450 600  300 
-U 5B2166FB
-F0 "logicLevel1" 60
-F1 "logicLevelShift.sch" 60
-F2 "LV" I L 14150 1550 60 
-F3 "LS" I L 14150 1650 60 
-F4 "HS" I R 14750 1650 60 
-F5 "HV" I R 14750 1550 60 
-$EndSheet
-$Sheet
-S 14150 2000 600  300 
-U 5B235833
-F0 "logicLevel2" 60
-F1 "logicLevelShift.sch" 60
-F2 "LV" I L 14150 2100 60 
-F3 "LS" I L 14150 2200 60 
-F4 "HS" I R 14750 2200 60 
-F5 "HV" I R 14750 2100 60 
-$EndSheet
 Wire Wire Line
 	13950 1550 14150 1550
 Wire Wire Line
 	14050 1550 14050 2100
 Wire Wire Line
 	14050 2100 14150 2100
-Text HLabel 14800 2100 2    60   Input ~ 0
-5V
 Wire Wire Line
 	14800 2100 14750 2100
-Text HLabel 14800 1550 2    60   Input ~ 0
-5V
 Wire Wire Line
 	14800 1550 14750 1550
 Wire Wire Line
 	14800 1650 14750 1650
 Wire Wire Line
 	14800 2200 14750 2200
-Text HLabel 13950 1550 0    60   Input ~ 0
-RPI3V3
 Connection ~ 14050 1550
-Text HLabel 13950 1650 0    60   Input ~ 0
-RPITX
-Text HLabel 13950 2200 0    60   Input ~ 0
-RPIRX
 Wire Wire Line
 	13950 2200 14150 2200
 Wire Wire Line
 	13950 1650 14150 1650
-Text GLabel 14800 2200 2    39   Input ~ 0
-RPI_RX
-Text GLabel 14800 1650 2    39   Input ~ 0
-RPI_TX
-Text GLabel 8650 6900 0    39   Input ~ 0
-RPI_TX
 Wire Wire Line
 	8650 6900 8750 6900
-Text GLabel 8650 6800 0    39   Input ~ 0
-RPI_RX
 Wire Wire Line
 	8650 6800 8750 6800
-Text HLabel 6800 2800 0    60   Input ~ 0
-VBAT+
-Text HLabel 13700 4050 2    60   Input ~ 0
-VBAT+
-Text HLabel 13950 2550 0    60   Input ~ 0
-RPIGND
-Text HLabel 14150 2550 2    60   Input ~ 0
-GND
 Wire Wire Line
 	14150 2550 13950 2550
-Text HLabel 9650 3250 0    60   Input ~ 0
-HORN
-Text HLabel 9650 3350 0    60   Input ~ 0
-PKLT
-Text HLabel 9650 3450 0    60   Input ~ 0
-HLH
-Text HLabel 9650 3550 0    60   Input ~ 0
-HLL
-Text HLabel 4350 6900 2    60   Input ~ 0
-GND
 Wire Wire Line
 	4300 6900 4350 6900
-Text HLabel 4350 7550 2    60   Input ~ 0
-GND
-Text HLabel 4350 8200 2    60   Input ~ 0
-GND
 Wire Wire Line
 	4300 7400 4650 7400
 Wire Wire Line
 	4300 7550 4350 7550
 Wire Wire Line
 	4300 8200 4350 8200
-Text HLabel 1600 1650 0    60   Input ~ 0
-5V
-Text HLabel 3750 1750 0    60   Input ~ 0
-5V
+Wire Wire Line
+	8450 3850 8650 3850
+Wire Wire Line
+	8450 3350 8650 3350
+Wire Wire Line
+	8450 2800 8650 2800
+Connection ~ 8550 3850
+Connection ~ 8550 3350
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 2800 8550 2900
+Wire Wire Line
+	8550 3200 8550 3450
+Wire Wire Line
+	8550 3750 8550 3850
+$Comp
+L D D?
+U 1 1 5B1319D3
+P 11850 17950
+F 0 "D?" H 11850 18050 50  0000 C CNN
+F 1 "D" H 11850 17850 50  0000 C CNN
+F 2 "" H 11850 17950 50  0001 C CNN
+F 3 "" H 11850 17950 50  0001 C CNN
+	1    11850 17950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 2700 8650 2700
 $EndSCHEMATC

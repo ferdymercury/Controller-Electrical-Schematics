@@ -69,7 +69,7 @@ U 1 1 5A23E921
 P 4550 3500
 AR Path="/59DEA30F/59DEB7B9/5A23E921" Ref="C7"  Part="1" 
 AR Path="/59DEA30F/5A0A7345/5A23E921" Ref="C10"  Part="1" 
-F 0 "C7" H 4575 3600 50  0000 L CNN
+F 0 "C10" H 4575 3600 50  0000 L CNN
 F 1 "0.1UF" H 4575 3400 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4588 3350 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 4550 3500 50  0001 C CNN

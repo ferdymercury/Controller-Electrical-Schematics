@@ -51,10 +51,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74HC595-RESCUE-hitchco-mk4 U4
+L 74HC595-RESCUE-hitchco-mk4 U5
 U 1 1 5A664EEF
 P 5300 2950
-F 0 "U4" H 5450 3550 50  0000 C CNN
+F 0 "U5" H 5450 3550 50  0000 C CNN
 F 1 "74HC595" H 5300 2350 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm" H 5300 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5300 2950 50  0001 C CNN
@@ -162,10 +162,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 3300 4050 3300
 $Comp
-L 74HC595-RESCUE-hitchco-mk4 U5
+L 74HC595-RESCUE-hitchco-mk4 U6
 U 1 1 5A26CD88
 P 5300 4300
-F 0 "U5" H 5450 4900 50  0000 C CNN
+F 0 "U6" H 5450 4900 50  0000 C CNN
 F 1 "74HC595" H 5300 3700 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm" H 5300 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5300 4300 50  0001 C CNN
