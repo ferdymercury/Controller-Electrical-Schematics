@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:hitchco-mk4-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -35,12 +34,15 @@ LIBS:valves
 LIBS:freetronics_schematic
 LIBS:cd4013b
 LIBS:ncs3s1205sc
+LIBS:lca715
+LIBS:SN74HC595N
+LIBS:CD74HC4067
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 46 54
+Sheet 39 54
 Title ""
 Date ""
 Rev ""
@@ -50,6 +52,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L R R77
+U 1 1 5A2EC1FC
+P 5350 4750
+F 0 "R77" V 5430 4750 50  0000 C CNN
+F 1 "10KΩ" V 5350 4750 39  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5280 4750 50  0001 C CNN
+F 3 "" H 5350 4750 50  0001 C CNN
+F 4 "BC10.0KXCT-ND" H 5430 4850 50  0001 C CNN "digikey-pn"
+F 5 "MBA02040C1002FRP00" H 5430 4850 50  0001 C CNN "mfg-pn"
+	1    5350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5A213555
+P 5950 4750
+F 0 "C12" H 5975 4850 50  0000 L CNN
+F 1 "0.1uF" H 5975 4650 50  0000 L CNN
+F 2 "C_Rect_L5.08mm_W3.175mm_P2.54mm:C_Rect_L5.08mm_W3.175mm_P2.54mm" H 5988 4600 50  0001 C CNN
+F 3 "http://datasheets.avx.com/AR-Series.pdf" H 5950 4750 50  0001 C CNN
+F 4 "478-5096-ND" H 5975 4950 50  0001 C CNN "digikey-pn"
+F 5 "AR205F104K4R" H 5975 4950 50  0001 C CNN "mfg-pn"
+	1    5950 4750
+	1    0    0    -1  
+$EndComp
 Text HLabel 3700 4200 0    60   Input ~ 0
 IN0
 Text HLabel 3700 4100 0    60   Input ~ 0
@@ -98,28 +126,12 @@ Text HLabel 5300 3400 2    60   Input ~ 0
 VCC
 Text HLabel 3700 4500 0    60   Input ~ 0
 GND
-$Comp
-L CD74HC4067 U7
-U 1 1 5A2EBFDF
-P 4500 3950
-F 0 "U7" H 4500 4750 50  0000 C CNN
-F 1 "CD74HC4067" H 4500 3150 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm" H 4500 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hct4067.pdf" H 4500 3600 50  0001 C CNN
-	1    4500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R77
-U 1 1 5A2EC1FC
-P 5350 4750
-F 0 "R77" V 5430 4750 50  0000 C CNN
-F 1 "10KΩ" V 5350 4750 39  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5280 4750 50  0001 C CNN
-F 3 "" H 5350 4750 50  0001 C CNN
-	1    5350 4750
-	1    0    0    -1  
-$EndComp
+Text HLabel 5350 5000 3    60   Input ~ 0
+GND
+Text HLabel 5950 5000 3    60   Input ~ 0
+GND
+Text HLabel 5950 4450 1    60   Input ~ 0
+VCC
 Wire Wire Line
 	3750 3400 3700 3400
 Wire Wire Line
@@ -168,30 +180,24 @@ Wire Wire Line
 	5250 3500 5300 3500
 Wire Wire Line
 	5300 3400 5250 3400
-Connection ~ 5350 4300
 Wire Wire Line
 	5350 4600 5350 4300
-Text HLabel 5350 5000 3    60   Input ~ 0
-GND
 Wire Wire Line
 	5350 5000 5350 4900
-Text HLabel 5950 5000 3    60   Input ~ 0
-GND
 Wire Wire Line
 	5950 5000 5950 4900
-Text HLabel 5950 4450 1    60   Input ~ 0
-VCC
 Wire Wire Line
 	5950 4450 5950 4600
+Connection ~ 5350 4300
 $Comp
-L C C12
-U 1 1 5A213555
-P 5950 4750
-F 0 "C12" H 5975 4850 50  0000 L CNN
-F 1 "0.1UF" H 5975 4650 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 5988 4600 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 5950 4750 50  0001 C CNN
-	1    5950 4750
+L CD74HC4067 U7
+U 1 1 5B11F3F0
+P 4500 3950
+F 0 "U7" H 4500 4750 50  0000 C CNN
+F 1 "CD74HC4067" H 4500 3150 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm" H 4500 4350 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4500 3600 50  0001 C CNN
+	1    4500 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:hitchco-mk4-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -35,12 +34,15 @@ LIBS:valves
 LIBS:freetronics_schematic
 LIBS:cd4013b
 LIBS:ncs3s1205sc
+LIBS:lca715
+LIBS:SN74HC595N
+LIBS:CD74HC4067
 LIBS:hitchco-mk4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 35 54
+Sheet 18 54
 Title ""
 Date ""
 Rev ""
@@ -50,16 +52,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5600 3050 0    60   Output ~ 0
-LED+
-Text HLabel 5600 3350 0    60   Input ~ 0
-BTN_NO
-Text HLabel 5600 3500 0    60   Input ~ 0
-BTN_C
-Text HLabel 6100 3350 2    60   Input ~ 0
-VIN
-Wire Wire Line
-	5600 3350 6100 3350
 $Comp
 L R R46
 U 1 1 5A1C999A
@@ -79,31 +71,43 @@ AR Path="/59DEA30F/5A1E934A/5A1C999A" Ref="R57"  Part="1"
 AR Path="/59DEA30F/5A1E9378/5A1C999A" Ref="R58"  Part="1" 
 AR Path="/59DEA30F/5A1E93A6/5A1C999A" Ref="R59"  Part="1" 
 F 0 "R59" V 5930 3700 50  0000 C CNN
-F 1 "10K" V 5850 3700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 3700 50  0001 C CNN
+F 1 "10K" V 5850 3700 39  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5780 3700 50  0001 C CNN
 F 3 "" H 5850 3700 50  0001 C CNN
+F 4 "BC10.0KXCT-ND" H 5930 3800 50  0001 C CNN "digikey-pn"
+F 5 "MBA02040C1002FRP00" H 5930 3800 50  0001 C CNN "mfg-pn"
 	1    5850 3700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5600 3500 6100 3500
-Wire Wire Line
-	5850 3500 5850 3550
+Text HLabel 5600 3050 0    60   Output ~ 0
+LED+
+Text HLabel 5600 3350 0    60   Input ~ 0
+BTN_NO
+Text HLabel 5600 3500 0    60   Input ~ 0
+BTN_C
+Text HLabel 6100 3350 2    60   Input ~ 0
+VIN
 Text HLabel 6100 3500 2    60   Output ~ 0
 PUSHED
-Connection ~ 5850 3500
 Text HLabel 5850 4000 3    60   Input ~ 0
 GND
-Wire Wire Line
-	5850 4000 5850 3850
 Text HLabel 6100 3050 2    60   Input ~ 0
 EN_LED
 Text HLabel 5600 3200 0    60   Output ~ 0
 LED-
-Wire Wire Line
-	6100 3050 5600 3050
 Text HLabel 6100 3200 2    60   Input ~ 0
 GND
 Wire Wire Line
+	5600 3350 6100 3350
+Wire Wire Line
+	5600 3500 6100 3500
+Wire Wire Line
+	5850 3500 5850 3550
+Wire Wire Line
+	5850 4000 5850 3850
+Wire Wire Line
+	6100 3050 5600 3050
+Wire Wire Line
 	6100 3200 5600 3200
+Connection ~ 5850 3500
 $EndSCHEMATC
