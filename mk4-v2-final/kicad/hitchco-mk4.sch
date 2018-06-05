@@ -433,7 +433,7 @@ U 1 1 5B01973D
 P 7700 2150
 F 0 "J1" H 7700 2950 50  0000 C CNN
 F 1 "Screw_Terminal_01x16" V 7800 2150 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-16pol" H 7700 2150 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix_45Deg_MKDS1:TerminalBlock_Phoenix_45Deg_MKDS1.5-16pol" H 7700 2150 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1702972" H 7700 2150 50  0001 C CNN
 F 4 "277-13705-ND" H 7700 3050 50  0001 C CNN "digikey-pn"
 F 5 "1702972" H 7700 3050 50  0001 C CNN "mfg-pn"
@@ -446,7 +446,7 @@ U 1 1 5B01A432
 P 7700 4050
 F 0 "J4" H 7700 4850 50  0000 C CNN
 F 1 "Screw_Terminal_01x16" V 7800 4050 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-16pol" H 7700 4050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix_45Deg_MKDS1:TerminalBlock_Phoenix_45Deg_MKDS1.5-16pol" H 7700 4050 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1702972" H 7700 4050 50  0001 C CNN
 F 4 "277-13705-ND" H 7700 4950 50  0001 C CNN "digikey-pn"
 F 5 "1702972" H 7700 4950 50  0001 C CNN "mfg-pn"
@@ -459,7 +459,7 @@ U 1 1 5B01A73E
 P 7700 5950
 F 0 "J8" H 7700 6750 50  0000 C CNN
 F 1 "Screw_Terminal_01x16" V 7800 5950 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-16pol" H 7700 5950 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix_45Deg_MKDS1:TerminalBlock_Phoenix_45Deg_MKDS1.5-16pol" H 7700 5950 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1702972" H 7700 5950 50  0001 C CNN
 F 4 "277-13705-ND" H 7700 6850 50  0001 C CNN "digikey-pn"
 F 5 "1702972" H 7700 6850 50  0001 C CNN "mfg-pn"
@@ -485,7 +485,7 @@ U 1 1 5B4505E2
 P 7700 7850
 F 0 "J13" H 7700 8650 50  0000 C CNN
 F 1 "Screw_Terminal_01x16" V 7800 7850 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-16pol" H 7700 7850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix_45Deg_MKDS1:TerminalBlock_Phoenix_45Deg_MKDS1.5-16pol" H 7700 7850 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1702972" H 7700 7850 50  0001 C CNN
 F 4 "277-13705-ND" H 7700 8750 50  0001 C CNN "digikey-pn"
 F 5 "1702972" H 7700 8750 50  0001 C CNN "mfg-pn"
@@ -892,7 +892,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2750 7500 2750
 Wire Wire Line
-	6800 1550 6800 7250
+	6800 1550 6800 7450
 Wire Wire Line
 	6800 2850 7500 2850
 Wire Wire Line
@@ -928,7 +928,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4750 7500 4750
 Wire Wire Line
-	6900 1450 6900 7150
+	6900 1450 6900 7350
 Wire Wire Line
 	7000 4850 7500 4850
 Wire Wire Line
@@ -1086,6 +1086,14 @@ NoConn ~ 4400 2700
 NoConn ~ 4400 2800
 NoConn ~ 3900 3350
 NoConn ~ 3900 3450
-NoConn ~ 7500 7350
-NoConn ~ 7500 7450
+Wire Wire Line
+	6900 7350 7500 7350
+Connection ~ 6900 7150
+Wire Wire Line
+	6800 7450 7500 7450
+Connection ~ 6800 7250
+Text Label 7500 7450 2    60   ~ 0
+VBAT+
+Text Label 7500 7350 2    60   ~ 0
+GND
 $EndSCHEMATC
