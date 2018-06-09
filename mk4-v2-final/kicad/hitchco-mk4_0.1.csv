@@ -1,0 +1,49 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,mfg-pn,digikey-pn
+1,Unpolarized capacitor,C,C5 C6,0.01uF,C_Rect_L5.08mm_W3.175mm_P2.54mm,2,http://datasheets.avx.com/AR-Series.pdf,AR205F103K4R,478-5095-ND
+2,Unpolarized capacitor,C,C1 C2 C3 C4 C7 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18,0.1uF,C_Rect_L5.08mm_W3.175mm_P2.54mm,16,http://datasheets.avx.com/AR-Series.pdf,AR205F104K4R,478-5096-ND
+3,Diode,D,D2 D3 D7 D8 D11,SB5100E-G,D_DO-201AD_P15.24mm_Horizontal,5,https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/SB520E-G_SB5100E-G.pdf,SB5100E-G,641-1421-1-ND
+4,LED generic,LED,D4 D5,WP7113ID,LED_D5.0mm,2,http://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf,WP7113ID,754-1264-ND
+5,"Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering)",Conn_02x03_Counter_Clockwise,J2 J3 J5 J6 J7 J9 J10 J11 J12 J14 J15 J16 J17 J18 J19 J20 J21 J22 J23 J24,Conn_02x03_Counter_Clockwise,Shroud_Socket_Strip_Straight_2x03_Pitch2.54mm,20,https://www.digikey.com/product-detail/en/amphenol-fci/75869-131LF/609-2845-ND/1302569,75869-131LF,609-2845-ND
+6,"Generic screw terminal, single row, 01x16",Screw_Terminal_01x16,J1 J4 J8 J13,Screw_Terminal_01x16,TerminalBlock_Phoenix_45Deg_MKDS1.5-16pol,4,https://www.phoenixcontact.com/pxc-oc-itemdetail-pdf-web/eshop?lineItemType=LineItem&UID=1702972,1702972,277-13705-ND
+7,"Jumper, generic, normally closed",Jumper,JP1,Jumper,D_DO-201AD_P15.24mm_Horizontal,1,,,
+8,"40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92",2N3904,Q1 Q4 Q6 Q9 Q11 Q15 Q17 Q19 Q21 Q22 Q24 Q26 Q28 Q30 Q34 Q36 Q38 Q40,2N3904,TO-92_Inline_Narrow_Oval,18,https://www.fairchildsemi.com/datasheets/MM/MMBT3904.pdf,2N3904BU,2N3904FS-ND
+9,"50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23",BSS138,Q41 Q42,BSS138,SOT-23,2,http://www.onsemi.com/pub/Collateral/BSS138LT1-D.PDF,BSS138LT1G,BSS138LT1GOSCT-ND
+10,Transistor N-MOSFET with substrate diode (general),Q_NMOS_GDS,Q7 Q12 Q13 Q20 Q31 Q32,FQB30N06LTM,TO-263-3_TabPin2,6,https://www.fairchildsemi.com/datasheets/FQ/FQB30N06L.pdf,FQB30N06LTM,FQB30N06LTMCT-ND
+11,Transistor P-MOSFET with substrate diode (general),Q_PMOS_GDS,Q2 Q3 Q5 Q8 Q10 Q14 Q16 Q18 Q23 Q25 Q27 Q29 Q33 Q35 Q37 Q39,NTB5605PT4G,TO-263-3_TabPin2,16,http://www.onsemi.com/pub/Collateral/NTB5605P-D.PDF,NTB5605PT4G,NTB5605PT4GOSCT-ND
+12,Resistor,R,R13 R17 R23 R25 R118,100KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,5,,MBA02040C1003FRP00,BC100KXCT-ND
+13,Resistor,R,R18,105KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MFR-25FBF52-105K,105KXBK-ND
+14,Resistor,R,R1 R8 R9 R19 R20 R27 R29 R30 R31 R33 R35 R37 R38 R40 R42 R44 R46 R47 R48 R49 R50 R51 R52 R53 R54 R55 R56 R57 R58 R59 R60 R62 R64 R65 R67 R69 R71 R73 R75 R77 R80 R81 R82 R83 R84 R85 R87 R88 R89 R90 R92 R94 R96 R98 R100 R102 R104 R107 R109 R110 R112 R114 R116 R120 R122 R124 R126 R128 R129 R130 R131,10KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,71,,MBA02040C1002FRP00,BC10.0KXCT-ND
+15,Resistor,R,R86,15KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MBA02040C1502FCT00,BC3248CT-ND
+16,Resistor,R,R2 R3 R4 R5 R7 R11 R12 R28 R32 R39 R43 R66 R70 R74 R91 R95 R99 R103 R111 R115 R121 R125,1KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,22,,MBA02040C1001FRP00,BC1.00KXCT-ND
+17,Resistor,R,R78 R79,3.3KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,,MBA02040C3301FRP00,BC3499CT-ND
+18,Resistor,R,R41 R45,330Ω,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,,MBA02040C3300FCT00,BC3292CT-ND
+19,Resistor,R,R21 R22,4.3KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,,MBA02040C4301FC100,BC3513CT-ND
+20,Resistor,R,R15,43Ω,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MBA02040C4309FC100,BC4443CT-ND
+21,Resistor,R,R16,47Ω,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MBA02040C4709FCT00,BC3277CT-ND
+22,Resistor,R,R34,5.1KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MBA02040C5101FCT00,BC3294CT-ND
+23,Resistor,R,R14 R24 R26 R119,51KΩ,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,4,,MBA02040C5102FRP00,BC3531CT-ND
+24,Resistor,R,R6,560Ω,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1,,MBA02040C5600FCT00,BC3282CT-ND
+25,Potentiometer,POT,RV1,10KΩ,Potentiometer_Trimmer_Bourns_PV36W,1,http://www.bourns.com/docs/Product-Datasheets/pv36.pdf,PV36W103C01B00,490-2875-ND
+26,Original by nicholasclewis,ARDUINO_MEGA_SHIELD,SHIELD1,ARDUINO_MEGA_SHIELD,ARDUINO_MEGA_SHIELD,1,http://www.thingiverse.com/thing:9630,,
+27,FLIP FLOP D-TYPE DUAL 1BIT 14DIP,CD4013B,U3,CD4013B,DIP-14_W7.62mm_Socket,1,http://www.ti.com/lit/ds/symlink/cd4013b.pdf,CD4013BE,296-2033-5-ND
+28,IC MUX/DEMUX 1X16 24SOIC,CD74HC4067,U7,CD74HC4067,SOIC-24W_7.5x15.4mm_Pitch1.27mm,1,http://www.ti.com/lit/ds/symlink/cd74hct4067.pdf,CD74HCT4067M,296-23078-ND
+29,RELAY OPTOMOS 1.8A SPST-NO,LCA715,U2,LCA715,DIP-6_W7.62mm_Socket,1,http://www.ixysic.com/home/pdfs.nsf/0/F9381D44DEE0D64A85256E390055B01F/$file/LCA715.pdf,LCA715,CLA308-ND
+30,"Quad Differential Comparators, DIP-14/SOIC-14/SSOP-14",LM339,U8,LM339,DIP-14_W7.62mm_Socket,1,http://www.ti.com/lit/ds/symlink/lm139a.pdf,LM339N,296-1393-5-ND
+31,"Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8",LM358,U4,LM358,DIP-8_W7.62mm,1,http://www.ti.com/lit/ds/symlink/lm358.pdf,LM358P,296-1395-5-ND
+32,DC/DC CONVERTER 5V 3W,NCS3S1205SC,U1,NCS3S1205SC,NCS3S1205SC,1,https://power.murata.com/data/power/ncl/kdc_ncs3.pdf,NCS3S1205SC,811-3084-ND
+33,8-BIT SHIFT REGISTER 16-DIP,SN74HC595N,U5 U6,SN74HC595N,DIP-16_W7.62mm_Socket,2,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf,SN74HC595N,296-1600-5-ND
+
+
+
+
+
+Component Groups:,33
+Component Count:,216
+Fitted Components:,216
+Number of PCBs:,1
+Total components:,216
+Schematic Version:,0.1
+Schematic Date:,2017-10-11
+BoM Date:,6/7/2018 3:05:22 PM
+Schematic Source:,C:/Users/Devon/Dropbox/dev/Hitchcock Managment/Car-HUD/Publishing/github/Controller-Electrical-Schematic/mk4-v2-final/kicad/hitchco-mk4.sch
+KiCad Version:,Eeschema 4.0.7

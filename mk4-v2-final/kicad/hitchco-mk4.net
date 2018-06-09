@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/Devon/Dropbox/dev/Hitchcock Managment/Car-HUD/Publishing/github/Controller-Electrical-Schematic/mk4-v2-final/kicad/hitchco-mk4.sch")
-    (date "6/5/2018 12:13:47 PM")
+    (date "6/7/2018 1:44:30 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1943,7 +1943,10 @@
     (comp (ref U7)
       (value CD74HC4067)
       (footprint Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm)
-      (datasheet DOCUMENTATION)
+      (datasheet http://www.ti.com/lit/ds/symlink/cd74hct4067.pdf)
+      (fields
+        (field (name mfg-pn) CD74HCT4067M)
+        (field (name digikey-pn) 296-23078-ND))
       (libsource (lib CD74HC4067) (part CD74HC4067))
       (sheetpath (names /hitchco-mk4/MuxBlock/) (tstamps /59DEA30F/5A1E555D/))
       (tstamp 5B11F3F0))
@@ -2796,6 +2799,7 @@
         (pin (num 13) (name Q2) (type output))
         (pin (num 14) (name VDD) (type power_in))))
     (libpart (lib CD74HC4067) (part CD74HC4067)
+      (description "IC MUX/DEMUX 1X16 24SOIC")
       (fields
         (field (name Reference) U)
         (field (name Value) CD74HC4067)
@@ -3104,10 +3108,10 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\linear.lib"))
     (library (logical freetronics_schematic)
       (uri C:\Users\Devon\Documents\KiCAD\freetronics\freetronics_schematic.lib))
-    (library (logical ncs3s1205sc)
-      (uri C:\Users\Devon\Documents\KiCAD\NCS3S1205SC\symbol\ncs3s1205sc.lib))
     (library (logical cd4013b)
       (uri C:\Users\Devon\Documents\KiCAD\CD4013B\symbol\cd4013b.lib))
+    (library (logical ncs3s1205sc)
+      (uri C:\Users\Devon\Documents\KiCAD\NCS3S1205SC\symbol\ncs3s1205sc.lib))
     (library (logical lca715)
       (uri C:\Users\Devon\Documents\KiCAD\LCA715\symbol\lca715.lib))
     (library (logical SN74HC595N)

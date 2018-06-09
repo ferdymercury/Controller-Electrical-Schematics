@@ -892,7 +892,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 2750 7500 2750
 Wire Wire Line
-	6800 1550 6800 7250
+	6800 1550 6800 7450
 Wire Wire Line
 	6800 2850 7500 2850
 Wire Wire Line
@@ -928,7 +928,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4750 7500 4750
 Wire Wire Line
-	6900 1450 6900 7150
+	6900 1450 6900 7350
 Wire Wire Line
 	7000 4850 7500 4850
 Wire Wire Line
@@ -1086,6 +1086,14 @@ NoConn ~ 4400 2700
 NoConn ~ 4400 2800
 NoConn ~ 3900 3350
 NoConn ~ 3900 3450
-NoConn ~ 7500 7350
-NoConn ~ 7500 7450
+Wire Wire Line
+	6900 7350 7500 7350
+Connection ~ 6900 7150
+Wire Wire Line
+	6800 7450 7500 7450
+Connection ~ 6800 7250
+Text Label 7500 7450 2    60   ~ 0
+VBAT+
+Text Label 7500 7350 2    60   ~ 0
+GND
 $EndSCHEMATC
