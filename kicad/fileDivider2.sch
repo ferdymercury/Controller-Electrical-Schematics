@@ -43,9 +43,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 54
-Title "sensor-mcu"
+Title "Hitchco MK4"
 Date "2017-10-11"
-Rev "0.1"
+Rev "1"
 Comp "Hitchcock Management"
 Comment1 "Power supply management is in top level document"
 Comment2 ""

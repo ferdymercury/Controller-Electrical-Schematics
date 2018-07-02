@@ -43,10 +43,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 32 54
-Title ""
+Title "Hitchco MK4"
 Date ""
-Rev ""
-Comp ""
+Rev "1"
+Comp "Hitchcock Management"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -57,7 +57,7 @@ L R R60
 U 1 1 5A2576B5
 P 5550 4850
 F 0 "R60" V 5630 4850 50  0000 C CNN
-F 1 "10K" V 5550 4850 39  0000 C CNN
+F 1 "10KΩ" V 5550 4850 39  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5480 4850 50  0001 C CNN
 F 3 "" H 5550 4850 50  0001 C CNN
 F 4 "BC10.0KXCT-ND" H 5630 4950 50  0001 C CNN "digikey-pn"

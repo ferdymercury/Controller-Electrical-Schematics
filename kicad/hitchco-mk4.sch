@@ -44,10 +44,10 @@ $Descr USLedger 11000 17000 portrait
 encoding utf-8
 Sheet 1 54
 Title "Hitchco MK4"
-Date "2017-10-11"
-Rev "0.1"
+Date "2018-07-02"
+Rev "1"
 Comp "Hitchcock Management"
-Comment1 "Power supply management is in top level document"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""

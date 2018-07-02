@@ -43,9 +43,9 @@ EELAYER END
 $Descr C 17000 22000 portrait
 encoding utf-8
 Sheet 2 54
-Title ""
+Title "Hitchco MK4"
 Date "2017-10-11"
-Rev "0.1"
+Rev "1"
 Comp "Hitchcock Management"
 Comment1 ""
 Comment2 ""
@@ -2946,7 +2946,7 @@ LDR Input\n
 Text Notes 8850 1050 0    60   ~ 0
 Horn\n
 Text Notes 11450 1050 0    60   ~ 0
-Headnights\n
+Headlights\n
 Text Notes 14350 1050 0    60   ~ 0
 Raspberry Pi Serial Communication\n
 Wire Wire Line

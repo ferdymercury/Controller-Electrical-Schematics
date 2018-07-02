@@ -43,10 +43,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 12 54
-Title ""
+Title "Hitchco MK4"
 Date ""
-Rev ""
-Comp ""
+Rev "1"
+Comp "Hitchcock Management"
 Comment1 ""
 Comment2 ""
 Comment3 ""
