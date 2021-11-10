@@ -6,7 +6,7 @@ _This repo is a part of the Hitchco MK4 project. You can read more about the pro
 ![img_9359](https://user-images.githubusercontent.com/3516293/42187883-b1b8ddbc-7e1f-11e8-9921-f6250170115a.JPG)
 ![_mg_9361](https://user-images.githubusercontent.com/3516293/42187882-b1ad078a-7e1f-11e8-8b79-4762be05ca9b.JPG)
 
-The PCB was designed in [KiCAD](http://kicad-pcb.org/) and manufactured by [OSHPark](https://oshpark.com/). It's essentially a giant shield for an Arduino Mega that drives many Power MOSFET devices, and conditions the inputs from the car. It also has many connectors for illuminated pushbuttons.
+The PCB was designed in [KiCAD](http://kicad.org/) and manufactured by [OSHPark](https://oshpark.com/). It's essentially a giant shield for an Arduino Mega that drives many Power MOSFET devices, and conditions the inputs from the car. It also has many connectors for illuminated pushbuttons.
 
 Many through-hole components were used for ease of assembly, and overall design simplicity.
 
